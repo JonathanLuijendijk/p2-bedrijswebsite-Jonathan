@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+article, aside, footer, header, main, nav, section {
+    display: block;
+  }
+  
+  html, body, h1, h2, h3, ul, li, a, p, 
+  article, aside, footer, header, main, nav, section {
+    padding: 0;
+    margin: 0;
+  }
+
+.banner {
+padding: 10px;
+}
+
+body {
+background-image: url(image/d5a25da4-d723-4695-a9ae-84fb8a2f57dd.png);
+background-position: no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+
+h1 {
+  background-position: left;
+  padding-bottom: 0px;
+}
+
+p{
+text-align: left;
+}
+
+footer {
+  position: absolute;
+  text-align: left;
+  padding: 10px 200px;
+  bottom: 0px
+}

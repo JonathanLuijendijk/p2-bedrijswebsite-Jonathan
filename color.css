@@ -1,0 +1,41 @@
+@charset "UTF8";
+
+article, aside, footer, header, main, nav, section {
+    display: block;
+  }
+  
+  html, body, h1, h2, h3, ul, li, a, p, 
+  article, aside, footer, header, main, nav, section {
+    padding: 0;
+    margin: 0;
+  }
+
+
+.banner {
+background-color: #000000;
+}
+
+nav {
+background-color: hotpink;
+}
+
+section{
+background-color: hotpink;
+}
+
+article {
+background-color: hotpink;
+}
+h1 {
+color:black
+}
+
+p {
+color:black;
+}
+
+footer {
+background-color: hotpink;
+}
+
+
