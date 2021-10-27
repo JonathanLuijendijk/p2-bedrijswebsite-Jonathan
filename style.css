@@ -14,12 +14,11 @@ article, aside, footer, header, main, nav, section {
 padding: 10px;
 }
 
-body {
-background-image: url(image/d5a25da4-d723-4695-a9ae-84fb8a2f57dd.png);
-background-position: no-repeat;
-background-attachment: fixed;
-background-size: cover;
+
+nav {
+  float: right;
 }
+
 
 h1 {
   background-position: left;
@@ -30,9 +29,76 @@ p{
 text-align: left;
 }
 
+section {
+margin: 0;
+}
+
 footer {
+left: 0px;
+margin: 0px;
+bottom: 0px;
+width: 100%;
+position: absolute;
+}
+
+table {
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+}
+
+
+td {
+  border-width: 1px;
+  border-style: solid;
+
+}
+
+.navbar {
+  overflow: hidden;
+  width: 100vw;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+.dropdown-content {
+  display: none;
   position: absolute;
+  min-width: 160px;
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
   text-align: left;
-  padding: 10px 200px;
-  bottom: 0px
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }

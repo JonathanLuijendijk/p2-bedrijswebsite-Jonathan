@@ -12,29 +12,9 @@
 
 <body>
     <header class="banner">
-        <section class="navbar">
-          <img src="image/logo.jpg" alt="ShabutoGo" width="200" height="200" style="max-width:100%;height:auto;">
-            <a href="index.html">Home</a>
-            <div class="dropdown">
-              <button class="dropbtn">Contact
-              </button>
-              <div class="dropdown-content">
-                <a href="Over-ons.html">Over ons</a>
-                <a href="foto's.html">Foto's</a>
-              </div>
-            </div>
-            <div class="dropdown">
-              <button class="dropbtn">Bestellen
-                <i class="fa fa-caret-down"></i>
-              </button>
-              </div>
-              <div class="dropdown-content">
-                <a href="keuzedelen.html">Keuzedelen</a>
-                <a href="examen.html">Examen en exameniring</a>
-            </div>
-            <a href="formulier.html">Formulier</a>
-              </button>
-            </div>
+          <img src="image/logo.jpg" alt="ShabutoGo" width="200" height="200" style="max-width:100%;height:auto;">   
+          <section class="navbar">
+          <?php     include 'navigatie.html';    ?>
           </section>
     </header>
 
