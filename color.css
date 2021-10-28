@@ -1,4 +1,4 @@
-@charset "UTF8";
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
 article, aside, footer, header, main, nav, section {
     display: block;
@@ -10,7 +10,9 @@ article, aside, footer, header, main, nav, section {
     margin: 0;
   }
 
-
+:root {
+  --background: rgba(0, 0, 0, .5);
+}
 .banner {
 background-color: #000000;
 }
@@ -29,38 +31,46 @@ p {
 color:black;
 }
 
+span {
+  color:whitesmoke;
+}
+
 footer {
 background-color: hotpink;
 }
 
-.navbar {
-  background-color: #FF1493;
+/* navigation styles start here */
+
+nav {
+background-color: var(--background);
 }
 
-.navbar a {
+nav a {
   color: white;
 }
 
-.dropdown .dropbtn {
-  color: white;
+nav a:hover {
+color: #000
 }
 
-.navbar a:hover,
-.dropdown:hover .dropbtn {
-  background-color: #C71585;
+.nav-toggle-label {
+  border: solid red
 }
 
-.dropdown-content {
-  background-color: pink;
-  box-shadow: 0px 8px 16px 0px hotpink;
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  background: white;
 }
 
-.dropdown-content a {
-  color: white;
-}
+@media screen and (min-width: 800px) {
 
-.dropdown-content a:hover {
-  background-color: #ddd;
-}
+  nav a::before {
+    background: hotpink;
+  }
+
+
+
+
 
 

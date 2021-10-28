@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,18 +11,24 @@
 
 <body>
     <header class="banner">
-          <img src="image/logo.jpg" alt="ShabutoGo" width="200" height="200" style="max-width:100%;height:auto;">   
-          <section class="navbar">
-          <?php     include 'navigatie.html';    ?>
-          </section>
+    <img src="image/logo.jpg" class="logo" alt="ShabutoGo" width="200" height="200" style="max-width:100%;height:auto;">
+    <?php     include 'navigatie.html';    ?>
     </header>
 
     <main>
         <section>
             <article>
+            <img src="image/shabu-to-go-nijmegen-20112010411334.jpg" alt="sushi" style="max-width:100%;height:auto;">
                 <h1>Welkom</h1>
                 <p>Bij dit website kun je lekker eten gaan bestellen.<br>
                    Je kan ook zien waar Shabu to go in Nederland ligt en wanneer tot wanneer het open is.</p>
+                   </article>
+        </section>
+
+        <section>
+            <article>
+                   <p><big>LET OP!</big><br>
+                   Dit website is bestemd bij Shabu to Go in Spijkenisse!</p>
             </article>
         </section>
 
@@ -33,46 +38,89 @@
             <caption>
               <p>Hier kun je de tijden zien</p>
             </caption>
-            <thead>
-              <tr>
-                <th>Algemene vakken</th>
-              </tr>
-            </thead>
             <tbody>
               <tr>
-                <th>Welke vakken en hoeveel lessen krijg je bij die vakken?</th>
+                <td>Maandag</td>
+                <td>12:00 - 21:00</td>
               </tr>
               <tr>
-                <td>Nederlands</td>
-                <td>2 lessen</td>
+                <td>Dinsdag</td>
+                <td>12:00 - 21:00</td>
               </tr>
               <tr>
-                <td>Engels</td>
-                <td>2 lessen</td>
+                <td>Woensdag</td>
+                <td>12:00 - 21:00</td>
               </tr>
               <tr>
-                <td>Rekenen</td>
-                <td>1 les</td>
+                <td>Donderdag</td>
+                <td>12:00 - 21:00</td>
               </tr>
               <tr>
-                <td>Burgerschap</td>
-                <td>1 les</td>
+                <td>Vrijdag</td>
+                <td>12:00 - 21:00</td>
               </tr>
               <tr>
-                <td>LOB</td>
-                <td>1 les</td>
+                <td>Zaterdag</td>
+                <td>12:00 - 21:00</td>
               </tr>
               <tr>
-                <td>Totaal</td>
-                <td>7 lessen</td>
+                <td>Zondag</td>
+                <td>12:00 - 21:00</td>
               </tr>
             </tbody>
           </table>
-    </article>
+          </article>
 </section>
-     
+ 
+<section>
+  <article>
+    <img src="image/d5a25da4-d723-4695-a9ae-84fb8a2f57dd.png" alt="Shabu" style="max-width:100%;height:auto;">
+          <h2>Bezorgen jullie ook eten?</h2>
+          <p>Ja, wij bezorgen ook eten. <br>
+             de volgende tijden staat als volgt.</p>
+            <table>
+             <tr>
+                <td>Maandag</td>
+                <td>12:00 - 21:00</td>
+              </tr>
+              <tr>
+                <td>Dinsdag</td>
+                <td>12:00 - 21:00</td>
+              </tr>
+              <tr>
+                <td>Woensdag</td>
+                <td>12:00 - 21:00</td>
+              </tr>
+              <tr>
+                <td>Donderdag</td>
+                <td>12:00 - 21:00</td>
+              </tr>
+              <tr>
+                <td>Vrijdag</td>
+                <td>12:00 - 21:00</td>
+              </tr>
+              <tr>
+                <td>Zaterdag</td>
+                <td>12:00 - 21:00</td>
+              </tr>
+              <tr>
+                <td>Zondag</td>
+                <td>12:00 - 21:00</td>
+              </tr>
+            </tbody>
+          </table>
+          </article>
+</section>
 
-    </main>
+
+<section>
+  <article>
+  <h2>Vacature scooter</h2>
+  <p>Kom bij ons werken! Wij zoeken nu mensen om eten te bezorgen.</p>
+  <img src="image/Bezorgers_banner.png" alt="bezorgen" style="max-width:100%;height:auto;">  
+  </article>
+</section>
+</main>
 
     <footer>
         <p><i>Nieuwsstraat 210<br>
