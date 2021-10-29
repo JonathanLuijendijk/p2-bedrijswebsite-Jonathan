@@ -11,7 +11,7 @@ article, aside, footer, header, main, nav, section {
   }
 
 :root {
-  --background: rgba(0, 0, 0, .5);
+  --background: rgba(0, 0, 0, 0.5);
 }
 .banner {
 background-color: #000000;
@@ -50,7 +50,7 @@ nav a {
 }
 
 nav a:hover {
-color: #000
+color: #ff1493
 }
 
 .nav-toggle-label {

@@ -57,10 +57,17 @@ footer {
 left: 0px;
 margin: 0px;
 height: 100px;
-width: 100vw;
+width: 200vw;
 position: relative;
 }
 
+section {
+margin: 0;
+}
+
+article {
+  margin: 0;
+}
 
 table {
   margin: 0px;
@@ -156,9 +163,7 @@ nav a {
   transition: opacity 150ms ease-in-out;
 }
 
-nav a:hover {
 
-}
 
 .nav-toggle:checked ~ nav {
  transform: scale(1,1);
