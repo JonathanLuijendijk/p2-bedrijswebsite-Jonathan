@@ -19,12 +19,18 @@
     <section>
         <article>
             <img src="image/shabu-to-go-2.jpg" alt="sushi" style="max-width: 100%;height: auto;">
-            <h1>Sushi Bestellen bij Shabu to Go</h1>
-            <p>Bij Shabu to go kun je overheerlijke en verse sushi gaan bestellen.<br>
-            Als je geen sushi-liefhebber of een sushiverzamelaar bent, kun je nog uit andere gerechten bestellen.<br>
-            </p>
-        </article>
-    </section>
+    <h1>Wij zijn SHABU to go: de bezorg- en afhaaldienst van overheerlijke sushi!</h1>
+    <p>Bij SHABU to go kun je online lekkere sushi bestellen.
+       We leveren een uitstekende service en werken met verse producten,<br>
+       waardoor je ook thuis kunt genieten van onze heerlijke gerechten.</p>
+
+       <p>Zowel de smaak van de producten als de kwaliteit van onze ingrediënten is belangrijk en staat bij ons hoog in het vaandel.<br>
+        Elke dag worden de gerechten klaargemaakt met vers geleverde producten en leveren wij een uitgebreid assortiment aan sushi en verschillende bijgerechten.</p>
+       
+        <p>De lekkerste sushi bestellen bij SHABU to go doe je vanuit je luie stoel.<br>
+        Onze bezorgers zorgen ervoor dat je binnen no time kunt genieten van je sushi!</p>
+      </article>
+</section>
 
     <section>
         <article>
@@ -34,6 +40,17 @@
                In Nijmegen wordt er later ook een Shabu to go geopent.</p>
         </article>
     </section>
+
+    <section>
+        <article>
+            <h2>Hoe is Shabu to Go ontstaan?</h2>
+            <p>Shabu to go bestaat uit Shabu Shabu.<br>
+            Restaurant Shabu Shabu ontwikkelt in samenwerking met De FranchiseAdviseur de franchiseformule voor Shabu ToGo.<br>
+            Shabu Shabu is een </p>
+        </article>
+    </section>
+ 
+
 </main>
 </body>
 </html>

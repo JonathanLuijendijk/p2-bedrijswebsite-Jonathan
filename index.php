@@ -109,19 +109,10 @@
 
 <section>
   <article>
-    <h2>Wij zijn SHABU to go: de bezorg- en afhaaldienst van overheerlijke sushi!</h2>
-    <p>Bij SHABU to go kun je online lekkere sushi bestellen.
-       We leveren een uitstekende service en werken met verse producten,<br>
-       waardoor je ook thuis kunt genieten van onze heerlijke gerechten.</p>
-
-       <p>Zowel de smaak van de producten als de kwaliteit van onze ingrediënten is belangrijk en staat bij ons hoog in het vaandel.<br>
-        Elke dag worden de gerechten klaargemaakt met vers geleverde producten en leveren wij een uitgebreid assortiment aan sushi en verschillende bijgerechten.</p>
-       
-        <p>De lekkerste sushi bestellen bij SHABU to go doe je vanuit je luie stoel.<br>
-        Onze bezorgers zorgen ervoor dat je binnen no time kunt genieten van je sushi!</p>
-      </article>
+    <h2>Shabu to go in Spijkenisse</h2>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2464.6109086986903!2d4.326694156145955!3d51.84980135222204!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c44919c566928b%3A0xd21bf1fa2e0519a9!2sShabu%20to%20go!5e0!3m2!1snl!2snl!4v1635796766434!5m2!1snl!2snl" width="600" height="450" style="max-width: 95%;border 0;" allowfullscreen="" loading="lazy"></iframe>
+  </article>
 </section>
-
 
 <section>
 <article>
