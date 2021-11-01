@@ -22,22 +22,17 @@
         <img src="image/6c2065f3-8020-4f51-ac6d-50d81ffdc8c2.png" alt="sushi" style="max-width:100%;height:auto;">
             <h1>Welkom</h1>
             <p>Bij dit website kun je lekkerste sushi gaan bestellen.<br>
-               Je kan ook zien waar Shabu to go in Nederland ligt en wanneer tot wanneer het open is.</p>
+               Je kan ook zien waar Shabu to go in Nederland ligt en wanneer tot wanneer het open is.<br>
+               Je hoeft niet bang te zijn dat het 1 dag niet opent, want het is de hele week open</p>
                </article>
-    </section>
-
-    <section>
-        <article>
-               <p><big>LET OP!</big><br>
-               Dit website is bestemd bij Shabu to Go in Spijkenisse!</p>
-        </article>
     </section>
 
 <section>
     <article>
       <table>
         <caption>
-          <p>Hier kun je de tijden zien</p>
+          <p>Natuurlijk moeten wij ook gaan uitrusten.<br>
+          Hier kun je de tijden zien tot wanneer het open is.</p>
         </caption>
         <tbody>
           <tr>
@@ -132,7 +127,8 @@
 <article>
 <h2>Vacature scooter</h2>
 <p>Sluit bij ons aan! Wij zoeken nu mensen om lekker eten te bezorgen.</p>
-<img src="image/Bezorgers_banner.png" alt="bezorgen" style="max-width:100%;height:auto;">  
+<a href="https://www.shabutogo.nl/vacatures">
+<img src="image/Bezorgers_banner.png" alt="bezorgen" style="max-width:100%;height:auto;"></a>
 </article>
 </section>
 </main>
