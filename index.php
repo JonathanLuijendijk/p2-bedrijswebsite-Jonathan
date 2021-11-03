@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,20 +8,19 @@
     <link rel="stylesheet" type="text/css" href="color.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
-
 <body>
-    <header class="banner">
-      <img src="image/logo.jpg" alt="logo" width="200" height="200" style="max-width: 100%;height: auto;">
-      <?php     include 'navigatie.html';    ?>
-    </header>
+  
+<header class="banner">
+<img src="image/logo.jpg" alt="logo" width="200" height="200">
+    <?php   include 'navigatie.html'; ?>
+</header>
 
     <main>
       <section>
         <article>
-        <img src="image/6c2065f3-8020-4f51-ac6d-50d81ffdc8c2.png" alt="sushi" style="max-width:100%;height:auto;">
+        <img src="image/6c2065f3-8020-4f51-ac6d-50d81ffdc8c2.png" alt="sushi" class="responsive">
             <h1>Welkom</h1>
-            <p>Bij dit website kun je lekkerste sushi gaan bestellen.<br>
-               Je kan ook zien waar Shabu to go in Nederland ligt en wanneer tot wanneer het open is.<br>
+            <p>Bij dit website kun je lekkerste sushi gaan bestellen. Je kan ook zien waar Shabu to go in Nederland ligt en wanneer tot wanneer het open is.<br>
                Je hoeft niet bang te zijn dat het 1 dag niet opent, want het is de hele week open</p>
                </article>
     </section>
@@ -70,7 +68,7 @@
 
 <section>
 <article>
-<img src="image/shabu-to-go-nijmegen-20112010411334.jpg" alt="Shabu" style="max-width:100%;height:auto;">
+<img src="image/shabu-to-go-nijmegen-20112010411334.jpg" alt="Shabu">
       <h2>Wanneer bezorgen jullie?</h2>
       <p> de bezorg tijden staat als volgt.</p>
         <table>
@@ -119,7 +117,7 @@
 <h2>Vacature scooter</h2>
 <p>Sluit bij ons aan! Wij zoeken nu mensen om lekker eten te bezorgen.</p>
 <a href="https://www.shabutogo.nl/vacatures">
-<img src="image/Bezorgers_banner.png" alt="bezorgen" style="max-width:100%;height:auto;"></a>
+<img src="image/Bezorgers_banner.png" alt="bezorgen"></a>
 </article>
 </section>
 </main>
@@ -132,5 +130,4 @@
 </footer>
 
 </body>
-
 </html>

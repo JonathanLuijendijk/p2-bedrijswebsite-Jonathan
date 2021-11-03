@@ -32,14 +32,6 @@
       </article>
 </section>
 
-    <section>
-        <article>
-            <h2>Hoeveel Shabu to go vestegingen zijn er in Nederland?</h2>
-            <img src="image/shabu-to-go-breda-19060312552458.jpg" alt="sushi" style="max-width: 100%;height: auto;">
-            <p>Er zijn in Nederland bijna 30 vestegingen van Shabu to go.<br>
-               In Nijmegen wordt er later ook een Shabu to go geopent.</p>
-        </article>
-    </section>
 
     <section>
         <article>
@@ -49,6 +41,13 @@
             Shabu Shabu is een </p>
         </article>
     </section>
+
+    <footer>
+    <p><i>Nieuwsstraat 210<br>
+           3201 EE<br>
+           Spijkenisse</i>
+    </p>
+</footer>
  
 
 </main>

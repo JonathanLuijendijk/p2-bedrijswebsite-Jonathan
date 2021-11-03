@@ -26,6 +26,11 @@ font-family: 'Work Sans', sans-serif;
 font-weight: 400;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .content {
   height: 200vh;
   background-blend-mode: multiply;
@@ -53,11 +58,11 @@ article {
 margin: 0;
 }
 
+
 footer {
-left: 0px;
-margin: 0px;
 height: 100px;
 width: 200vw;
+max-width: 100%;
 position: relative;
 }
 
@@ -172,6 +177,13 @@ nav a {
 .nav-toggle:checked ~ nav a {
   opacity: 1;
   transition: opacity 250ms ease-in-out 250ms;
+}
+
+@media only screen and (max-width: 600px) {
+ .responsive {
+   height: 65vw;
+   width: 100vw;
+ }
 }
 
 @media screen and (min-width: 800px) {
