@@ -11,14 +11,14 @@
 <body>
     
 <header class="banner">
-<img src="image/logo.jpg" alt="logo" width="200" height="200" style="max-width: 100%;height: auto;">
+<img src="image/logo.jpg" alt="logo" width="200" height="200">
     <?php   include 'navigatie.html'; ?>
 </header>
 
 <main>
     <section>
         <article>
-            <img src="image/shabu-to-go-2.jpg" alt="sushi" style="max-width: 100%;height: auto;">
+            <img src="image/shabu-to-go-2.jpg" alt="sushi" class="responsive">
     <h1>Wij zijn SHABU to go: de bezorg- en afhaaldienst van overheerlijke sushi!</h1>
     <p>Bij SHABU to go kun je online lekkere sushi bestellen.
        We leveren een uitstekende service en werken met verse producten,<br>
@@ -36,11 +36,24 @@
     <section>
         <article>
             <h2>Hoe is Shabu to Go ontstaan?</h2>
+            <img src="image/40882657_10157131671742323_5521504918017409024_n.jpg" alt="ShabuShabu">
             <p>Shabu to go bestaat uit Shabu Shabu.<br>
             Restaurant Shabu Shabu ontwikkelt in samenwerking met De FranchiseAdviseur de franchiseformule voor Shabu ToGo.<br>
-            Shabu Shabu is een </p>
+            Shabu Shabu is een restaurant dat eerder dan Shabu to go is ontstaan. Het idee van de jonge entrepreneur was Shabu Shabu die gek is op Japanse smaken.<br>
+            Hij wilde dat de traditionele Japanse recepten door het te veranderen naar een westerste smaak.<br>
+            Het was zo succesvol gegaan dat er na 13 vestigingen van Shabu Shabu een nieuwe kind gemaakt heeft genaamd Shabu to go.</p>
         </article>
     </section>
+
+    <section>
+        <article>
+            <h3>De werknemers van Shabu to go</h3>
+            <p>Om lekker sushi te maken, hebben natuurlijk chefkoks nodig.</p>
+        </article>
+    </section>
+
+
+
 
     <footer>
     <p><i>Nieuwsstraat 210<br>

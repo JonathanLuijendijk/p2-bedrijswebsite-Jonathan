@@ -31,6 +31,11 @@ img {
   height: auto;
 }
 
+embed{
+  max-width: 75%;
+  height: auto;
+}
+
 .content {
   height: 200vh;
   background-blend-mode: multiply;
@@ -94,7 +99,7 @@ td {
 header {
   background: var(--background);
   text-align: center;
-  position: fixed;
+  position: relative;
   z-index: 999;
   width: 100%;
 }
@@ -179,12 +184,6 @@ nav a {
   transition: opacity 250ms ease-in-out 250ms;
 }
 
-@media only screen and (max-width: 600px) {
- .responsive {
-   height: 65vw;
-   width: 100vw;
- }
-}
 
 @media screen and (min-width: 800px) {
   .nav-toggle-label {

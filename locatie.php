@@ -25,6 +25,16 @@
         </article>
     </section>
 
+    <section>
+        <article>
+            <h2>In welke steden zit Shabu to go in Nederland?</h2>
+            <p>Shabu to go zit in Nederland overal verspreidt.<br>
+               In sommige steden is er jammer genoeg geen Shabu to go, maar in Spijkenisse gelukkig wel.<br>
+               <a href="//www.shabutogo.nl/">
+               <img src="image/Schermafbeelding 2021-11-03 150135.png" alt="locatie"></a></p>
+        </article>
+    </section>
+
 
     <footer>
     <p><i>Nieuwsstraat 210<br>
