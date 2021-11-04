@@ -13,13 +13,23 @@
     <header class="banner">
     <img src="image/logo.jpg" alt="ShabutoGo" width="200" height="200" style="max-width:100%;height:auto;">
     <?php   include 'navigatie.html';   ?>
+    
     </header>
+
+    
 <main>
     <section>
         <article>
 
         </article>
     </section>
+
+    <footer>
+    <p><i>Nieuwsstraat 210<br>
+           3201 EE<br>
+           Spijkenisse</i>
+    </p>
+</footer>
 </main>
     
 </body>

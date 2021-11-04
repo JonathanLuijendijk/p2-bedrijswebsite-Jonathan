@@ -11,7 +11,12 @@ article, aside, footer, header, main, nav, section {
   }
 
 .banner {
-padding: 10px;
+padding: 0px;
+}
+
+.container {
+  display: grid;
+  flex-direction: row;
 }
 
 *, *::before, *::after {
@@ -99,7 +104,7 @@ td {
 header {
   background: var(--background);
   text-align: center;
-  position: relative;
+  position: fixed;
   z-index: 999;
   width: 100%;
 }
@@ -183,6 +188,14 @@ nav a {
   opacity: 1;
   transition: opacity 250ms ease-in-out 250ms;
 }
+
+@media screen and (max-width 600px){
+  .bestellen {
+    height: 100px;
+    width: 100px;
+  }
+}
+
 
 
 @media screen and (min-width: 800px) {
