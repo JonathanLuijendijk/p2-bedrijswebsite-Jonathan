@@ -14,10 +14,11 @@ article, aside, footer, header, main, nav, section {
 padding: 0px;
 }
 
-.container {
-  display: grid;
-  flex-direction: row;
+.child {
+  width: 33vw;
 }
+
+
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -69,6 +70,8 @@ margin: 0;
 }
 
 
+
+
 footer {
 height: 100px;
 width: 200vw;
@@ -97,6 +100,25 @@ td {
   border-width: 1px;
   border-style: solid;
 
+}
+
+button {
+  display: flex;
+  justify-self: flex-end;
+}
+
+.button4 {
+  display: flex;
+  justify-content: left;
+}
+
+.button2 {
+  display: flex;
+  justify-content: right;
+}
+
+.button {
+  width: 32.5vw;
 }
 
 /* navigation styles start here */
@@ -189,11 +211,16 @@ nav a {
   transition: opacity 250ms ease-in-out 250ms;
 }
 
-@media screen and (max-width 600px){
-  .bestellen {
-    height: 100px;
-    width: 100px;
-  }
+@media screen and (max-width: 600px){
+
+ .button3 {
+   width: 100vw;
+ }
+ 
+ .child {
+  width: 100vw;
+}
+
 }
 
 
@@ -203,10 +230,32 @@ nav a {
     display: none;
   }
 
+  .parent {
+    display: block;
+  }
+
+  .button {
+    width: 32,5vw;
+  }
+ 
+ 
+  .img {
+    width: 500px;
+    height: 500px;
+    max-height: 32.7vw;
+  }
+
   header {
     display: grid;
     grid-template-columns: 1fr auto minmax(600px, 1fr);
   }
+
+  .container {
+    display: flex;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+  }
+
   .logo {
     grid-column: 2 / 3;
   }

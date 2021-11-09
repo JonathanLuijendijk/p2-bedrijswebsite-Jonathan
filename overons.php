@@ -45,13 +45,6 @@
         </article>
     </section>
 
-    <section>
-        <article>
-            <h3>De werknemers van Shabu to go</h3>
-            <p>Om lekker sushi te maken, hebben natuurlijk chefkoks nodig.</p>
-        </article>
-    </section>
-
 
 
 
