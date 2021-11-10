@@ -74,31 +74,31 @@
         <table>
          <tr>
             <td>Maandag</td>
-            <td>12:00 - 21:00</td>
+            <td>16:15 - 21:00</td>
           </tr>
           <tr>
             <td>Dinsdag</td>
-            <td>12:00 - 21:00</td>
+            <td>16:15 - 21:00</td>
           </tr>
           <tr>
             <td>Woensdag</td>
-            <td>12:00 - 21:00</td>
+            <td>16:15 - 21:00</td>
           </tr>
           <tr>
             <td>Donderdag</td>
-            <td>12:00 - 21:00</td>
+            <td>16:15 - 21:00</td>
           </tr>
           <tr>
             <td>Vrijdag</td>
-            <td>12:00 - 21:00</td>
+            <td>12:30 - 21:00</td>
           </tr>
           <tr>
             <td>Zaterdag</td>
-            <td>12:00 - 21:00</td>
+            <td>12:30 - 21:00</td>
           </tr>
           <tr>
             <td>Zondag</td>
-            <td>12:00 - 21:00</td>
+            <td>12:30 - 21:00</td>
           </tr>
         </tbody>
       </table>
