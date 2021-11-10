@@ -49,17 +49,17 @@
             <article class="container">
             <ul>
                 <img src="image/Sushisensationfor2.png" alt="acties">
-                <p class="parent">Sushi sensation for 2</p>
+                <p class="parent">Sushi sensation for 2 26 stuks</p>
             <button type="button" class="button button3">+ €33,95</button>
                 </ul>
             <ul>
                 <img src="image/Double-chicken-bento.png" alt="acties">
-                <p class="parent">Double chicken bento</p>
+                <p class="parent">Double chicken bento 14 stuks</p>
                 <button type="button" class="button button3">+ €9,25</button>
                 </ul>
             <ul>
                 <img src="image/KFS.png" alt="acties">
-                <p class="parent">Chicken wings</p>
+                <p class="parent">Chicken wings 4 stuks</p>
                 <button type="button" class="button button3">+ €3,00</button>
             </ul>
             </article>
@@ -69,17 +69,17 @@
             <article class="container">
             <ul>
                 <img src="image/Chickenmeatballs.png" alt="acties">
-                <p class="parent">Chicken meat balls</p>
+                <p class="parent">Chicken meat balls 3 spiezen</p>
                 <button type="button" class="button button3">+ €3,00</button>
             </ul>
             <ul>
                 <img src="image/Nicetomeetsushibox.png" alt="acties">
-                <p class="parent">Nice to meet sushi box</p>
+                <p class="parent">Nice to meet sushi box 40 stuks</p>
                 <button type="button" class="button button3">+ €32,50</button>
             </ul>
             <ul>
                 <img src="image/festivalpletter.png" alt="acties" class="img">
-                <p class="parent">Festival Platter</p>
+                <p class="parent">Festival Platter 34 stuks</p>
                 <button type="button" class="button button3">+ €34,50</button>
             </ul>
             </article>
@@ -89,7 +89,7 @@
     <article>
       <ul>
           <img src="image/SearedebiNigiri.png" alt="SeaRedEbiNigiri">
-          <p class="parent child">Sea red ebi Nigiri</p>
+          <p class="parent child">Sea red ebi Nigiri 3 stuks</p>
           <button type="button" class="button button3">+ €5,00</button>
       </ul>
     </article>
