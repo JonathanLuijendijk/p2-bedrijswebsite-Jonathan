@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@charset "UTF-8";
 
 article, aside, footer, header, main, nav, section {
     display: block;
@@ -28,7 +28,15 @@ background-color: white;
 
 
 h1 {
-color:black
+color:hotpink
+}
+
+h2 {
+color: hotpink;
+}
+
+h3 {
+color: hotpink;
 }
 
 p {

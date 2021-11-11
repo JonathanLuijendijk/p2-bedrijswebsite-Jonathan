@@ -32,7 +32,7 @@
                     <img src="image/Mariohappioutfit.png" alt="Mario">
                     <h2>Mario</h2>
                     <p>Mario is onze beste chefkok. Hij kan in een 1 uur al ongeveer 1000 sushi's maken, maar zijn sushi
-                        smaakt natuurlijk niet beter dan Toad de werkgever.</p>
+                        smaakt natuurlijk niet beter dan de werkgever.</p>
                 </ul>
                 <ul>
                     <img src="image/UsainBolt.jpg" alt="Usain">
@@ -40,7 +40,7 @@
                     <p>Usain Bolt is de beste bezorger van Shabu to go. Hij is zo snel, dat je binnen 5 minuten je
                         bestelling binnen handen hebt.<br>
                         Hij heeft ook met de Olympische Spelen mee gedaan en hij heeft in totaal 19 gouden medailles
-                        gehaald.</p>
+                        gewonnen.</p>
                 </ul>
                 <ul>
                     <img src="image/Yoshi.jpg" alt="scooter">
@@ -60,20 +60,20 @@
                         sushi's van zijn bedrijf,<br>
                         zodat hij zelf geen eten hoeft te maken. Hij is ook heel erg goed in plannen en hij kan ook de
                         lekkerste sushi's maken.<br>
-                        (Pas op! Hou Red Toad en de werkgever niet door elkaar, want anders wordt je bestel prijs
+                        (Pas op! Hou Red Toad en de werkgever niet door elkaar, want anders wordt je prijs
                         verdubbelt of je krijgt een pak slaag van de werkgever.)</p>
                 </ul>
                 <ul>
                     <img src="image/Toads.png" alt="werknemer">
                     <h2>Toads (werknemers)</h2>
                     <p>Deze Toads hebben diverse kleuren en dat betekent dat zij de werknemers zijn.<br>
-                        Ze doen van alles, ze koken, ze bezorgen, Ze zijn harde werkers, maar ze werken niet bij de
+                        Ze doen van alles, ze koken, ze bezorgen, ze zijn harde werkers, maar ze werken niet bij de
                         kassa.</p>
                 </ul>
                 <ul>
                     <img src="image/Toadette.png" alt="kassamedewerker" width="200" height="200">
                     <h2>Toadette (werkgever)</h2>
-                    <p>ZIjn er nou 2 werkgevers? Ja, in dit geval wel, want Toadette is getrouwd met Toad de
+                    <p>Zijn er nou 2 werkgevers? Ja, in dit geval wel, want Toadette is getrouwd met Toad de
                         werkgever.<br>
                         Zij geeft ook werk aan de werknemers en ze is niet heel goed in plannen.<br>
                         Gelukkig is zij de enigste die aan de kassa wilt gaan werken en zij is ook heel erg aardig.</p>
@@ -84,18 +84,30 @@
         <section class="container">
             <article class="container">
                 <ul>
-                    <img src="image/Kiran-Badloe-Avatar.png" alt="TheLastAirbender" width="450" height="450">
+                    <img src="image/Kiran-Badloe-Avatar.jpg" alt="TheLastAirbender" width="450" height="450">
                     <h2>Kiran Badloe the Last airbender</h2>
                     <p>Kiran Badloe is de enige echte Avatar die bij ons werkt.<br>
-                        Hij is ook een bezorger en hij gebruik zijn airbending skills om lekker sushi's te bezorgen.</p>
+                        Hij is ook een bezorger en hij gebruik zijn airbending skills om lekker sushi's te bezorgen.<br>
+                        Hij heeft ook aan de Olympische spelen meegedaan<br>
+                        en hij heeft 1 goude medaille gewonnen.</p>
                 </ul>
                 <ul>
                     <img src="image/PeachKimono.png" alt="werknemer" width="100" height="100">
                     <h2>Peach</h2>
                     <p>Peach is getrouwd met Mario en daarom werkt ze hier.<br>
-                        Zij neemt contact op van de mensen die via hun telefoon bellen.<br>
+                        Zij neemt contact op van de mensen die via hun telefoon iets willen bestellen.<br>
                         Ze werkt ook eventueel bij de kassa als het druk is.</p>
                 </ul>
+            </article>
+        </section>
+
+        <section>
+            <article>
+                <h2>Meer informatie?</h2>
+                <p>Wil je meer informatie, dan kun je bellen naar de nummer +31 10348622 en als dat niet lukt, kun je
+                    +112 bellen.<br>
+                    Je kan ook mailen naar de werkgever toadenstartoad@gmail.com of naar dannyduyanhnguyen@outlook.com.
+                </p>
             </article>
         </section>
     </main>

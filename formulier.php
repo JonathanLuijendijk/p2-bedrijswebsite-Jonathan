@@ -20,7 +20,7 @@
     <main>
         <section>
             <article>
-                <img src="image/shabu-to-go-1.jpg" alt="werknemers">
+                <img src="image/314342a3-0868-411d-812e-18f6091b12a1.png" alt="werknemers">
                 <h1>Aanvraag formulier catering</h1>
                 <p>Bent u benieuwd naar de mogelijkheden van onze sushi catering of wilt u direct uw catering
                     bestellen?<br>
@@ -65,10 +65,13 @@
                     <legend>Bericht:</legend>
                     <textarea cols="40" rows="5" name="reactie" id="reactie"
                         placeholder="Type hier wat u ons wilt meegeven."></textarea><br>
-                        <figcaption>*Hieronder moet je kiezen of je een e-mail gestuurd wilt van onze actie en speciale aanbieding of niet.</figcaption>
-                    <input required type="radio" name="e-mail" value="E-mail">Ja, ik wil per e-mail op de hoogte gehouden
+                    <figcaption>*Hieronder moet je kiezen of je een e-mail gestuurd wilt van onze actie en speciale
+                        aanbieding of niet.</figcaption>
+                    <input required type="radio" name="e-mail" value="E-mail">Ja, ik wil per e-mail op de hoogte
+                    gehouden
                     worden van actie en speciale aanbieding.<br>
-                    <input required type="radio" name="e-mail" value="E-mail">Nee, ik wil niet de actie en speciale aanbieding per e-mail verstuurd krijgen.
+                    <input required type="radio" name="e-mail" value="E-mail">Nee, ik wil niet de actie en speciale
+                    aanbieding per e-mail verstuurd krijgen.
             </article>
         </section>
 
