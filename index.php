@@ -33,8 +33,7 @@
         <table>
           <h2>Wanneer zijn jullie open?</h2>
           <caption>
-            <p>Natuurlijk moeten wij ook gaan uitrusten.<br>
-              Hier kun je de tijden zien tot wanneer het open is.</p>
+            <p>Natuurlijk moeten wij ook gaan uitrusten. Hier kun je de tijden zien tot wanneer het open is.</p>
           </caption>
           <tbody>
             <tr>

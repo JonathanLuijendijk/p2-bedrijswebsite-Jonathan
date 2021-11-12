@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500');
 
+
+
 article, aside, footer, header, main, nav, section {
     display: block;
   }
@@ -106,7 +108,8 @@ button {
   display: grid;
   justify-content: left;
 }
-
+   
+ 
 .button2 {
   display: flex;
   justify-content: right;

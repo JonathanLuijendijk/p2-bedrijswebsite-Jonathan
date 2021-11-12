@@ -25,6 +25,8 @@
                 <p>Bent u benieuwd naar de mogelijkheden van onze sushi catering of wilt u direct uw catering
                     bestellen?<br>
                     Neem dan direct contact met ons op via het onderstaande contactformulier: *Verplichte velden</p>
+
+                
                 <form method="post" action="reactiepost.html"><br>
                     <legend>*Vesteging</legend>
                     <select required name="beste">
