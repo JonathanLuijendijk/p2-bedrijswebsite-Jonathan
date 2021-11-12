@@ -84,7 +84,7 @@
         <section class="container">
             <article class="container">
                 <ul>
-                    <img src="image/Kiran-Badloe-Avatar.jpg" alt="TheLastAirbender" width="450" height="450">
+                    <img src="image/Kiran-Badloe-Avatar.png" alt="TheLastAirbender" width="450" height="450">
                     <h2>Kiran Badloe the Last airbender</h2>
                     <p>Kiran Badloe is de enige echte Avatar die bij ons werkt.<br>
                         Hij is ook een bezorger en hij gebruik zijn airbending skills om lekker sushi's te bezorgen.<br>
