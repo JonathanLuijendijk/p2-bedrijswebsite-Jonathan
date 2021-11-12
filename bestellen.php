@@ -97,6 +97,8 @@
             </article>
         </section>
 
+        <br>
+
         <section class="button2">
             <article class="button2">
                 <button type="button">
