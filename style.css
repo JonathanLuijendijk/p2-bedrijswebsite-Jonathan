@@ -226,7 +226,8 @@ nav a {
   }
 
   .parent {
-    display: block;
+    display: flex;
+    width: 32.5vw;
   }
 
   .button {
