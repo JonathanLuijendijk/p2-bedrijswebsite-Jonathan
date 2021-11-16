@@ -21,7 +21,6 @@ background-color: #000000;
 background-color: hotpink;
 }
 
-
 body {
 background-color: white;
 }
@@ -80,9 +79,4 @@ color: #ff1493
   nav a::before {
     background: hotpink;
   }
-
-
-
-
-
-
+}
