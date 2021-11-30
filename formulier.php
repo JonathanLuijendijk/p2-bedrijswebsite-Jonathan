@@ -66,9 +66,11 @@
                     <legend>Bericht:</legend>
                     <textarea cols="40" rows="5" name="reactie" id="reactie"
                         placeholder="Type hier wat u ons wilt meegeven."></textarea><br>
-                    <figcaption>*Hieronder moet je kiezen of je een e-mail gestuurd wilt van onze actie en speciale
-                        aanbieding of niet.</figcaption>
-                        
+                        <legend>*Reactie:</legend>
+                    <textarea cols="40" rows="5" name="reactie" id="reactie"
+                        required placeholder="Type hier wat u van ons website vind en wat er beter kan."></textarea><br>
+                        <figcaption>*Hieronder moet je kiezen of je een e-mail gestuurd wilt van onze actie en speciale
+                        aanbieding of niet.</figcaption>                        
                     <input required type="radio" name="e-mail" value="E-mail">Ja, ik wil per e-mail op de hoogte
                     gehouden
                     worden van actie en speciale aanbieding.<br>

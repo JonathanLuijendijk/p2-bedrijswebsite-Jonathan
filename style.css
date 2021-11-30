@@ -52,6 +52,18 @@ embed{
   place-items: center;
 }
 
+
+.tabel2 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.tabelrand {
+  background-color: pink;
+}
+
+
+
 h1 {
   font-family: Verdana, Tahoma, sans-serif;
   padding-bottom: 0px;
