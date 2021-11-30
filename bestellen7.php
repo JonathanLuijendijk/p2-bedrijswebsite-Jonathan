@@ -159,17 +159,6 @@
             </article>
         </section>
 
-<<<<<<< HEAD
-=======
-        <section class="button2">
-            <article class="button2">
-                <button type="button">
-                    <link><a href="bestellen8.php">Volgende pagina</a>
-                </button>
-            </article>
-        </section>
-
->>>>>>> e4e54ac93ae92737fd76ba84639a4e09e055dc3a
     </main>
 
     <footer>
