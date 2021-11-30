@@ -151,7 +151,7 @@
         <section class="button4">
             <article class="button4">
                 <button type="button">
-                    <link><a href="bestellen5.php">Vorige pagina</a>
+                    <link><a href="bestellen6.php">Vorige pagina</a>
                 </button>
             </article>
         </section>
@@ -159,7 +159,7 @@
         <section class="button2">
             <article class="button2">
                 <button type="button">
-                    <link><a href="bestellen7.php">Volgende pagina</a>
+                    <link><a href="bestellen8.php">Volgende pagina</a>
                 </button>
             </article>
         </section>
