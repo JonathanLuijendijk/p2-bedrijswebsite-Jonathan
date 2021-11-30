@@ -20,9 +20,27 @@
       <h1>
         Welkom bij de medewerkers gezocht pagina!, wij zoeken JOU kom jij ons gezellige team versterken?
       </h1>
+      <p>Bij Shabu To Go kan je werken als kok, bezorger, schoonmaker noem maar op, er is genoeg te doen.</p>
+      <p>Met ons gezellige team is werken leuker dan ooit, met flexibele werktijden vrije vakanties en veel meer is dit de leukste baan van nederland. Ben jij 16 jaar of ouder?, dan kan je bezorgen met een scooter van Shabu To Go!</p>
     </article>
   </section>
+
+  <section>
+<article>
+<h2>Vacature scooter</h2>
+<p>Sluit bij ons aan! Wij zoeken nu mensen om lekker eten te bezorgen.</p>
+<a href="https://www.shabutogo.nl/vacatures"></a>
+<img src="image/Bezorgers_banner.png" alt="bezorgen">
+</article>
+</section>
 </main>
+
+<footer>
+    <p><i>Nieuwsstraat 210<br>
+           3201 EE<br>
+           Spijkenisse</i>
+    </p>
+</footer>
     
 </body>
 </html>

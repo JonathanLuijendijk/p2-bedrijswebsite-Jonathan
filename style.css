@@ -74,6 +74,10 @@ article {
 margin: 0;
 }
 
+main{
+  color: black;
+}
+
 
 footer {
 height: 100px;
