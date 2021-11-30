@@ -24,28 +24,8 @@
                 <h2>Drinks & Sauces</h2>
             </article>
         </section>
-        <section class="button2">
-            <article class="button2">
-                <button type="button">
-                    <link><a href="bestellen.php">Sushi</a>
-                </button>
-                <button type="button">
-                    <link><a href="bestellen3.php">Boxes</a>
-                </button>
-                <button type="button">
-                    <link><a href="bestellen4.php">Bowls</a>
-                </button>
-                <button type="button">
-                    <link><a href="bestellen5.php">Side Dishes</a>
-                </button>
-                <button type="button">
-                    <link><a href="bestellen6.php">Specials</a>
-                </button>
-                <button type="button">
-                    <link><a href="bestellen7.php">Drinks&Sauces</a>
-                </button>
-            </article>
-        </section>
+
+        <?php include 'button.html'; ?>
 
         <section class="container">
             <article class="container">
@@ -158,18 +138,6 @@
                 </button>
             </article>
         </section>
-
-<<<<<<< HEAD
-=======
-        <section class="button2">
-            <article class="button2">
-                <button type="button">
-                    <link><a href="bestellen8.php">Volgende pagina</a>
-                </button>
-            </article>
-        </section>
-
->>>>>>> e4e54ac93ae92737fd76ba84639a4e09e055dc3a
     </main>
 
     <footer>

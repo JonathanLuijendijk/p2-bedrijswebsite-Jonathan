@@ -21,32 +21,11 @@
                 <img src="image/6c2065f3-8020-4f51-ac6d-50d81ffdc8c2.png" alt="sushi">
                 <h1>Bestellen</h1>
                 <p>Bestel hier de gerechten.</p>
-                <h2>Bowls</h2>
+                <h2>Poke Bowls</h2>
             </article>
         </section>
 
-        <section class="button2">
-            <article class="button2">
-                <button type="button">
-                    <link><a href="bestellen.php">Sushi</a>
-                </button>
-                <button type="button">
-                    <link><a href="bestellen3.php">Boxes</a>
-                </button>
-                <button type="button">
-                    <link><a href="bestellen4.php">Bowls</a>
-                </button>
-                <button type="button">
-                    <link><a href="bestellen5.php">Side Dishes</a>
-                </button>
-                <button type="button">
-                    <link><a href="bestellen6.php">Specials</a>
-                </button>
-                <button type="button">
-                    <link><a href="bestellen7.php">Drinks&Sauces</a>
-                </button>
-            </article>
-        </section>
+        <?php include 'button.html'; ?>
 
         <section class="container">
             <article class="container">

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -21,9 +22,11 @@
                 <img src="image/6c2065f3-8020-4f51-ac6d-50d81ffdc8c2.png" alt="sushi">
                 <h1>Bestellen</h1>
                 <p>Bestel hier de gerechten.</p>
-                <h2>Sushi</h2>
+                <h2>Sushi + Maki</h2>
             </article>
         </section>
+
+<?php include 'button.html'; ?>
 
         <section class="button2">
             <article class="button2">
@@ -31,30 +34,7 @@
                     <link><a href="bestellen.php">Sushi</a>
                 </button>
                 <button type="button">
-                    <link><a href="bestellen3.php">Boxes</a>
-                </button>
-                <button type="button">
-                    <link><a href="bestellen4.php">Bowls</a>
-                </button>
-                <button type="button">
-                    <link><a href="bestellen5.php">Side Dishes</a>
-                </button>
-                <button type="button">
-                    <link><a href="bestellen6.php">Specials</a>
-                </button>
-                <button type="button">
-                    <link><a href="bestellen7.php">Drinks&Sauces</a>
-                </button>
-            </article>
-        </section>
-
-        <section class="button2">
-            <article class="button2">
-                <button type="button">
-                    <link><a href="bestellen.php">Sushi</a>
-                </button>
-                <button type="button">
-                    <link><a href="bestellen2.php">Doubles</a>
+                    <link><a href="bestellen2.php">Nigiri</a>
                 </button>
             </article>
         </section>
@@ -191,6 +171,11 @@
                     <p class="parent">Salmon Roll 4 stuks</p>
                     <button type="button" class="button button3">+ €5,70</button>
                 </ul>
+                <ul>
+                    <img src="image/KappaMaki.jpg" alt="sushi">
+                    <p class="parent">Kappa Maki 6 stuks</p>
+                    <button type="button" class="button button3">+ €3,90</button>
+                </ul>
             </article>
         </section>
 
@@ -198,11 +183,6 @@
 
         <section class="container">
             <article class="container">
-                <ul>
-                    <img src="image/KappaMaki.jpg" alt="sushi">
-                    <p class="parent">Kappa Maki 6 stuks</p>
-                    <button type="button" class="button button3">+ €3,90</button>
-                </ul>
                 <ul>
                     <img src="image/TamagoMaki.jpg" alt="sushi">
                     <p class="parent">Tamago Maki 6 stuks</p>
@@ -213,16 +193,16 @@
                     <p class="parent">Salmon Maki 6 stuks</p>
                     <button type="button" class="button button3">+ €4,70</button>
                 </ul>
-            </article>
-        </section>
-
-        <section class="container">
-            <article class="container">
                 <ul>
                     <img src="image/TunaMaki.jpg" alt="sushi">
                     <p class="parent">Tuna Maki 6 stuks</p>
                     <button type="button" class="button button3">+ €4,90</button>
                 </ul>
+            </article>
+        </section>
+
+        <section class="container">
+            <article class="container">
                 <ul>
                     <img src="image/AvocadoMaki.jpg" alt="sushi">
                     <p class="parent">Avocado Maki 6 stuks</p>
