@@ -58,17 +58,44 @@
   <br><label>Wat kan er beter aan de website?:</label>
   <br><textarea name="wkeb"></textarea>
 
+  <br><label>Anders namelijk:</label>
+  <br><textarea name="an"></textarea>
+
   <br><label>Staan alle producten goed op de pagina's?:</label>
-  <br><textarea name="gp"></textarea>
+  <br>
+  <select id="keuze" name="keuze">
+  <option value="Ja">Ja</option>
+  <option value="Nee">Nee</option>
+  </select>
+  <br><label>Bij 'nee' graag uitleg wat er niet goed aan is:</label>
+  <br><textarea name="waarom"></textarea>
 
   <br><label>Is alles goed leesbaar?:</label>
-  <br><textarea name="gl"></textarea>
+  <br>
+  <select id="keuze" name="keuze">
+  <option value="Ja">Ja</option>
+  <option value="Nee">Nee</option>
+  </select>
+  <br><label>Bij 'nee' graag uitleg wat er niet goed aan is:</label>
+  <br><textarea name="waarom"></textarea>
 
   <br><label>Staat alles duidelijk op de website?:</label>
-  <br><textarea name="dodw"></textarea>
+  <br>
+  <select id="keuze" name="keuze">
+  <option value="Ja">Ja</option>
+  <option value="Nee">Nee</option>
+  </select>
+  <br><label>Bij 'nee' graag uitleg wat er niet goed aan is:</label>
+  <br><textarea name="waarom"></textarea>
 
   <br><label>Is alles overzichtelijk?:</label>
-  <br><textarea name="overzichtelijk"></textarea>
+  <br>
+  <select id="keuze" name="keuze">
+  <option value="Ja">Ja</option>
+  <option value="Nee">Nee</option>
+  </select>
+  <br><label>Bij 'nee' graag uitleg wat er niet goed aan is:</label>
+  <br><textarea name="waarom"></textarea>
 
   <br>
 
