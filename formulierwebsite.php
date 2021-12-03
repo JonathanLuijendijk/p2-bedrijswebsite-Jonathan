@@ -18,6 +18,11 @@
         <section>
             <article>
             <img src="image/314342a3-0868-411d-812e-18f6091b12a1.png" alt="werknemers">
+            <h1>Website Review</h1>
+            <p>U kunt ons hier laten weten wat u van de website vind en wat er beter/anders kan aan de website.</p>
+
+            <br>
+
             <form action="" method="post">
   <label for="fname">Voornaam:</label><br>
   <input type="text" id="voornaam" name="voornaam"><br>
