@@ -4,11 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>formulier</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
+<header class="banner">
+        <img src="image/logo.jpg" alt="ShabutoGo" width="200" height="200" style="max-width:100%;height:auto;">
+        <?php   include 'navigatie.html';   ?>
+    </header>
     
-<form action="" method="post">
+    <main>
+        <section>
+            <article>
+            <img src="image/314342a3-0868-411d-812e-18f6091b12a1.png" alt="werknemers">
+            <form action="" method="post">
   <label for="fname">Voornaam:</label><br>
   <input type="text" id="voornaam" name="voornaam"><br>
   <label for="lname">Achternaam:</label><br>
@@ -82,5 +92,15 @@ if(isset($_POST['verzenden'])){
     echo 'Het formulier is verzonden!';
 }
 ?>
+            </article>
+        </section>
+
+        <footer>
+            <p><i>Nieuwsstraat 210<br>
+                    3201 EE<br>
+                    Spijkenisse</i>
+            </p>
+        </footer>
+    </main>
 </body>
 </html>
