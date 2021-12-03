@@ -44,24 +44,30 @@
 
   <br>
 
-  <br><label>Wat is Goed:</label>
+  <br><label>Wat is goed aan de website?:</label>
   <br><textarea name="g"></textarea>
 
-  <br><label>Wat is niet Goed:</label>
+  <br><label>Wat is niet goed aan de website?:</label>
   <br><textarea name="ng"></textarea>
 
-  <br><label>Wat kan er beter:</label>
+  <br><label>Wat kan er beter aan de website?:</label>
   <br><textarea name="wkeb"></textarea>
 
-  <br><label>Goede Producten:</label>
+  <br><label>Staan alle producten goed op de pagina's?:</label>
   <br><textarea name="gp"></textarea>
 
-  <br><label>Minder goede Producten:</label>
-  <br><textarea name="mgp"></textarea>
+  <br><label>Is alles goed leesbaar?:</label>
+  <br><textarea name="gl"></textarea>
+
+  <br><label>Staat alles duidelijk op de website?:</label>
+  <br><textarea name="dodw"></textarea>
+
+  <br><label>Is alles overzichtelijk?:</label>
+  <br><textarea name="overzichtelijk"></textarea>
 
   <br>
 
-  <br><label>Cijfer:</label>
+  <br><label>Cijfer Website:</label>
   <select id="Cijfer" name="Cijfer">
   <option value="1">1</option>
   <option value="2">2</option>
@@ -89,7 +95,7 @@
 
 <?php
 if(isset($_POST['verzenden'])){
-    echo 'Het formulier is verzonden!';
+    echo 'Het formulier is verzonden naar Shabu To Go!';
 }
 ?>
             </article>
