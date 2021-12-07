@@ -1,16 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Shabu to GO</title>
-<link rel="stylesheet" type="text/css" href="styles.css">
-<link rel="stylesheet" type="text/css" href="style.css">
-
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Shabu to GO</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
 <body>
 
 <header class="banner">
-    <img src="image/logo.jpg" alt="logo" width="200" height="200">
+   <img src="image/logo.jpg" alt="logo" width="200" height="200"> 
     <?php   include 'navigatie.html'; ?>
 </header>
 
@@ -29,8 +30,6 @@
 <article>
 <h2>Vacature scooter</h2>
 <p>Sluit bij ons aan! Wij zoeken nu mensen om lekker eten te bezorgen.</p>
-<a href="https://www.shabutogo.nl/vacatures"></a>
-<img src="image/Bezorgers_banner.png" alt="bezorgen">
 </article>
 </section>
 </main>

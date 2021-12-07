@@ -4,11 +4,11 @@ article, aside, footer, header, main, nav, section {
     display: block;
   }
   
-  html, body, h1, h2, h3, ul, li, a, p, 
+  /* html, body, h1, h2, h3, ul, li, a, p, 
   article, aside, footer, header, main, nav, section {
     padding: 0;
     margin: 0;
-  }
+  } */
 
 :root {
   --background: rgba(0, 0, 0, 0.5);
@@ -24,7 +24,6 @@ background-color: hotpink;
 body {
 background-color: white;
 }
-
 
 h1 {
 color:hotpink
