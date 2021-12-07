@@ -25,28 +25,30 @@
                    Wij willen het graag horen vul hier uw review in.</p>
 
                 
-                <form method="post" action="reactiepost.html"><br>
-                <label for="Naam">*Naam:</label><br>
-                    <input required type="text" name="voornaam" placeholder="Type hier uw naam"><br>
+                <form action="" method="post"><br>
+                <label for="Voornaam">*Voornaam:</label><br>
+                    <input required type="text" name="voornaam" placeholder="Type hier uw voornaam"><br>
+                <label for="Achternaam">*Achternaam:</label><br>
+                    <input required type="text" name="achternaam" placeholder="Type hier uw achternaam"><br>
                 <label for="Email">*Email:</label><br>
                     <input required type="text" name="Email" placeholder="Type hier uw Email"><br>
-                <legend>Waarover wilt uw een review plaatsen</legend>
+                <label for="Postcode">*Postcode:</label><br>
+                    <input required type="text" name="Email" placeholder="Type hier uw Postcode">
+                <legend>Over wie zou uw een opmerking will sturen:</legend>
                     <select required name="beste">
                         <option value="">Kies hier een Review optie</option>
-                        <option value="AB">Product</option>
-                        <option value="BC">Service</option>
-                        <option value="CD">Medewerkers</option>
-                        <option value="DE">Website</option>
+                        <option value="AB">Werknemer</option>
+                        <option value="BC">Werkgever</option>
                     </select><br>
-                <label for="Product">Als uw Product heeft gekozen schrijf hier welke,anders shrijf N.V.T</label><br>
+                <label for="Product">Als uw de naam heeft van deze persoon shrijf deze hieronder:</label><br>
                     <input required type="text" name="Product" placeholder="Type hier Het Product"><br>
                 <label for="checkbox"></label>
-                        <legend>Review:</legend>
+                        <legend>Hier kunt uw een Opmerking schrijven over deze persoon:</legend>
                     <textarea cols="40" rows="10" name="review" id="review"
                         required placeholder="Type hier wat u van ons website vind en wat er beter kan."></textarea><br>
                         <label for="checkbox"></label>
                 <fieldset>
-                    <legend>Hoeveel Sterren</legend>
+                    <legend>Cijfer:</legend>
                     <label for="opt1"><input type="radio"> 1* </label>
                     <label for="opt2"><input type="radio"> 2* </label>
                     <label for="opt3"><input type="radio"> 3* </label>
@@ -60,11 +62,16 @@
         <section>
             <article>
                 <legend> Alles ingevuld </legend>
-                <input type="submit" id="submit" name="submit" value="submit">
-                <input type="reset" id="reset" name="reset" value="reset">
+                <input type="submit" name="verzenden" value="verzenden">
 
             </article>
         </section>
+        </form>
+        <?php
+            if(isset($_POST['verzenden'])){
+            echo 'Bedankt voor uw feedback!';
+            }
+        ?>
 
 
         <footer>
