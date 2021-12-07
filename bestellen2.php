@@ -21,7 +21,7 @@
                 <img src="image/6c2065f3-8020-4f51-ac6d-50d81ffdc8c2.png" alt="sushi">
                 <h1>Bestellen</h1>
                 <p>Bestel hier de gerechten.</p>
-                <h2>Nigiri</h2>
+                <h2>Nigiri + Sashimi</h2>
             </article>
         </section>
 
@@ -78,6 +78,26 @@
                     <img src="image/SearedCrabLegNigiri.jpg" alt="sushi">
                     <p class="parent">Seared Crab Leg Nigiri 2 stuks</p>
                     <button type="button" class="button button3">+ €4,70</button>
+                </ul>
+                <ul>
+                    <img src="image/SalmonSashimi.jpg" alt="sushi">
+                    <p class="parent">Salmon Sashimi 5 stuks</p>
+                    <button type="button" class="button button3">+ €7,10</button>
+                </ul>
+            </article>
+        </section>
+
+        <section class="container">
+            <article class="container">
+                <ul>
+                    <img src="image/TunaSashimi.jpg" alt="sushi">
+                    <p class="parent">Tuna Sashimi 5 stuks</p>
+                    <button type="button" class="button button3">+ €7,10</button>
+                </ul>
+                <ul>
+                    <img src="image/SashimiMix.jpg" alt="sushi">
+                    <p class="parent">Sashimi Mix 6 stuks (3 tonijn en 3 zalm)</p>
+                    <button type="button" class="button button3">+ €8,40</button>
                 </ul>
             </article>
         </section>
