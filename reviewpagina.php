@@ -11,10 +11,13 @@
 
 <body>
 
+<header class="banner">
+    
+        <img src="image/logo.jpg" alt="logo" width="200" height="200">
+        <?php include 'navigatie.html'; ?>
+    </header>
 
 
-<section>
-<section>
     <img src="image/6c2065f3-8020-4f51-ac6d-50d81ffdc8c2.png" alt="sushi" class="responsive">
     <p><h1>Reviewpagina Service</h1></p>
 </section>
