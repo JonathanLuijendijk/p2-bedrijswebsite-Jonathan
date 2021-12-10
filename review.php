@@ -37,8 +37,8 @@
                         echo "Naam: ". $voornaam . " ". $achternaam . "<br>";
                         echo "Email: ". $email . " ". "<br>";
                         echo "Postcode: ". $postcode . " ". "<br>";
-                        echo "Persoon: ". $persoon . " ". "<br>";
-                        echo "Wie: ". $descriptie . " ". "<br>";
+                        echo "Positie: ". $persoon . " ". "<br>";
+                        echo "Descriptie: ". $descriptie . " ". "<br>";
                         echo "Review: ". $review . " ". "<br>";
                     }
 
