@@ -67,8 +67,8 @@
                 <legend>Over wie zou uw een opmerking will sturen:</legend>
                     <select required name="persoon">
                         <option value="">Kies hier een Review optie</option>
-                        <option value="AB">Werknemer</option>
-                        <option value="BC">Werkgever</option>
+                        <option value="Werknemer">Werknemer</option>
+                        <option value="Werkgever">Werkgever</option>
                     </select><br>
                 <label for="descriptie">Als uw de naam heeft van deze persoon shrijf deze hieronder:</label><br>
                     <input required type="text" name="descriptie" placeholder="Type het hier"><br>
