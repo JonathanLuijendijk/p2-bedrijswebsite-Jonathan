@@ -26,6 +26,16 @@
           Je hoeft niet bang te zijn dat het 1 dag niet opent, want het is de hele week open</p>
       </article>
     </section>
+
+    <section>
+      <article>
+        <img src="image/shabu-to-go-tilburg.png" alt="Shabu to go in Tilburg">
+        <h2>Wat kunt u bij de website tegenkomen?</h2>
+        <p>Bij dit website kun je de lekkerste sushi bestellen vanuit je luie stoel!<br>
+           Je hoeft geen zorgen te maken bij het bestellen, want als je geen sushi liefhebber bent, kun je ook andere gerechten bestellen!<br>
+           Je kan ook leuke feitjes zoeken, waar de vesteging van Shabu to go ligt en veel meer!</p>
+      </article>
+    </section>
   </main>
 
   <footer>
