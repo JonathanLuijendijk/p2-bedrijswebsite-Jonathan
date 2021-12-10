@@ -24,31 +24,61 @@
                 <p>heeft uw een goeie of slechte ervaring gehad met ShabuToGo? <br>
                    Wij willen het graag horen vul hier uw review in.</p>
 
+                   <?php if(isset($_POST['verzenden'])) {
+                        $voornaam=$_POST['voornaam'];
+                        $achternaam=$_POST['achternaam'];
+                        $email=$_POST['email'];
+                        $postcode=$_POST['postcode'];
+                        $persoon=$_POST['persoon'];
+                        $descriptie=$_POST['descriptie'];
+                        $review=$_POST['review'];
+
+                        echo "Bedankt voor uw feedback!<br>";
+                        echo "Naam: ". $voornaam . " ". $achternaam . "<br>";
+                        echo "Email: ". $email . " ". "<br>";
+                        echo "Postcode: ". $postcode . " ". "<br>";
+                        echo "Persoon: ". $persoon . " ". "<br>";
+                        echo "Wie: ". $descriptie . " ". "<br>";
+                        echo "Review: ". $review . " ". "<br>";
+                    }
+
+                    else {
+                        $voornaam="";
+                        $achternaam="";
+                        $email="";
+                        $postcode="";
+                        $persoon="";
+                        $descriptie="";
+                        $review="";
+                    }
+
+                    ?>
+
                 
                 <form action="" method="post"><br>
-                <label for="Voornaam">*Voornaam:</label><br>
+                <label for="voornaam">*voornaam:</label><br>
                     <input required type="text" name="voornaam" placeholder="Type hier uw voornaam"><br>
-                <label for="Achternaam">*Achternaam:</label><br>
+                <label for="achternaam">*achternaam:</label><br>
                     <input required type="text" name="achternaam" placeholder="Type hier uw achternaam"><br>
-                <label for="Email">*Email:</label><br>
-                    <input required type="text" name="Email" placeholder="Type hier uw Email"><br>
-                <label for="Postcode">*Postcode:</label><br>
-                    <input required type="text" name="Email" placeholder="Type hier uw Postcode">
+                <label for="email">*email:</label><br>
+                    <input required type="text" name="email" placeholder="Type hier uw email"><br>
+                <label for="postcode">*postcode:</label><br>
+                    <input required type="text" name="postcode" placeholder="Type hier uw postcode">
                 <legend>Over wie zou uw een opmerking will sturen:</legend>
-                    <select required name="beste">
+                    <select required name="persoon">
                         <option value="">Kies hier een Review optie</option>
                         <option value="AB">Werknemer</option>
                         <option value="BC">Werkgever</option>
                     </select><br>
-                <label for="Product">Als uw de naam heeft van deze persoon shrijf deze hieronder:</label><br>
-                    <input required type="text" name="Product" placeholder="Type hier Het Product"><br>
+                <label for="descriptie">Als uw de naam heeft van deze persoon shrijf deze hieronder:</label><br>
+                    <input required type="text" name="descriptie" placeholder="Type het hier"><br>
                 <label for="checkbox"></label>
                         <legend>Hier kunt uw een Opmerking schrijven over deze persoon:</legend>
                     <textarea cols="40" rows="10" name="review" id="review"
                         required placeholder="Type hier wat u van ons website vind en wat er beter kan."></textarea><br>
                         <label for="checkbox"></label>
                 <fieldset>
-                    <legend>Cijfer:</legend>
+                    <legend name="cijfer">Cijfer:</legend>
                     <label for="opt1"><input type="radio"> 1* </label>
                     <label for="opt2"><input type="radio"> 2* </label>
                     <label for="opt3"><input type="radio"> 3* </label>
@@ -67,11 +97,6 @@
             </article>
         </section>
         </form>
-        <?php
-            if(isset($_POST['verzenden'])){
-            echo 'Bedankt voor uw feedback!';
-            }
-        ?>
 
 
         <footer>
