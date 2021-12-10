@@ -34,6 +34,34 @@ font-family: 'Work Sans', sans-serif;
 font-weight: 400;
 }
 
+
+
+label {
+  float: left;
+  display: block;
+  width: 150px;
+}
+
+input {
+  display: block;
+}
+
+
+
+input[type="submit"] {
+  display: flex;
+    margin-left: 150px;
+}
+input[type="bericht"] {
+  display: flex;
+  margin-left : 150px;
+  width: 150px;
+}
+input[type="email"] {
+  display: flex;
+  margin-left: 150px;
+}
+
 img {
   max-width: 100%;
   height: auto;
