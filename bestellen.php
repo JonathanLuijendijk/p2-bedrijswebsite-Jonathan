@@ -19,7 +19,7 @@
     <main>
         <section>
             <article>
-                <img src="image/6c2065f3-8020-4f51-ac6d-50d81ffdc8c2.png" alt="sushi">
+                <img src="image/shabu.jpg" alt="sushi" height="2250">
                 <h1>Bestellen</h1>
                 <p>Bestel hier de gerechten.</p>
                 <h2>Sushi + Maki</h2>
