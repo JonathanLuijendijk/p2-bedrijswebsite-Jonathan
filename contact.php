@@ -18,7 +18,7 @@
     <main>
         <section>
             <article>
-                <img src="image/restaurant.png" alt="restaurant">
+                <img src="image/restaurant.png" alt="restaurant" class="responsive">
                 <h1>De werknemers van Shabu to Go</h1>
                 <p>Om lekker sushi te maken, hebben we natuurlijk chefkoks nodig en werknemers nodig om eten te
                     bezorgen.</p>
@@ -53,11 +53,12 @@
         <section>
             <article class="container">
                 <ul>
-                    <img src="image/Toad.jpg" alt="werkgever" width="200" height="200">
-                    <h2>Toad (werkgever)</h2>
-                    <p>Toad is de werkgever van Shabu to go. Hij geeft werk aan de werknemers en steelt eventueel
+                    <img src="image/Toadny.jpg" alt="werkgever" width="200" height="200">
+                    <h2>Toadny (werkgever)</h2>
+                    <p>Toadny is de werkgever van Shabu to go. Hij geeft werk aan de werknemers en steelt eventueel
                         sushi's van zijn bedrijf,<br>
-                        zodat hij zelf geen eten hoeft te maken. Hij is ook heel erg goed in plannen en hij kan ook de
+                        zodat hij zelf geen eten hoeft te maken. Zijn gezicht is hetzelfde als die van Danny.<br>
+                        Hij is ook heel erg goed in plannen en hij kan ook de
                         lekkerste sushi's maken.<br>
                         (Pas op! Hou Red Toad en de werkgever niet door elkaar, want anders wordt je prijs
                         verdubbelt of je krijgt een pak slaag van de werkgever.)</p>
