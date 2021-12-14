@@ -19,7 +19,7 @@
     <main>
         <section>
             <article>
-                <img src="image/314342a3-0868-411d-812e-18f6091b12a1.png" alt="werknemers">
+                <img src="image/314342a3-0868-411d-812e-18f6091b12a1.png" alt="werknemers" class="responsive">
                 <h1>Review plaatsen</h1>
                 <p>heeft uw een goeie of slechte ervaring gehad met ShabuToGo? <br>
                    Wij willen het graag horen vul hier uw review in.</p>

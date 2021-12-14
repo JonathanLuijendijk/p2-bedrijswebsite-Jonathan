@@ -12,6 +12,8 @@ article, aside, footer, header, main, nav, section {
     margin: 0;
   }
 
+/*This is the lay-out*/
+
 .banner {
 padding: 0px;
 }
@@ -34,34 +36,6 @@ font-family: 'Work Sans', sans-serif;
 font-weight: 400;
 }
 
-
-
-label {
-  float: left;
-  display: block;
-  width: 150px;
-}
-
-input {
-  display: block;
-}
-
-
-
-input[type="submit"] {
-  display: flex;
-    margin-left: 150px;
-}
-input[type="bericht"] {
-  display: flex;
-  margin-left : 150px;
-  width: 150px;
-}
-input[type="email"] {
-  display: flex;
-  margin-left: 150px;
-}
-
 img {
   max-width: 100%;
   height: auto;
@@ -80,6 +54,14 @@ embed{
   place-items: center;
 }
 
+/*This is for the table */ 
+table {
+  margin: 0px;
+  bottom: 0px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+}
 
 .tabel2 {
   display: flex;
@@ -90,7 +72,7 @@ embed{
   background-color: pink;
 }
 
-
+/* the table ends here*/
 
 h1 {
   font-family: Verdana, Tahoma, sans-serif;
@@ -123,14 +105,6 @@ position: relative;
 }
 
 
-table {
-  margin: 0px;
-  bottom: 0px;
-  border-width: 1px;
-  border-style: solid;
-  text-align: center;
-}
-
 
 td {
   border-width: 1px;
@@ -157,6 +131,14 @@ button {
 
 .button {
   width: 32.5vw;
+}
+
+/* the form starts here */
+
+.label {
+  float: left;
+  display: block;
+  width: 10vw;
 }
 
 /* navigation styles start here */
@@ -250,7 +232,10 @@ nav a {
   transition: opacity 250ms ease-in-out 250ms;
 }
 
+/* This is a screen for phones like samsung */
+
 @media screen and (max-width: 600px){
+
 
  .button3 {
    width: 100vw;
@@ -260,13 +245,56 @@ nav a {
   width: 100vw;
 }
 
+label {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
 
-@media screen and (min-width: 800px) {
+.col-25, .col-75, input[type=submit] {
+  width: 100%;
+  margin-top: 0;
+}
+
+input {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ width: 32vw;
+}
+
+
+}
+
+/* This screen is for tablet. */
+@media screen and (min-width: 700px) {
+  p {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .responsive {
+    width: 1500px;
+    height: 550px;
+  }
+
+  .button {
+    width: 1280px;
+  }
+
+  .parent {
+    width: 1280px;
+  }
+  
+}
+
+/* This screen is for laptop and computers. */
+
+@media screen and (min-width: 1300px) {
   .nav-toggle-label {
     display: none;
+  }
+
+  .responsive {
+    width: 1500px;
+    height: 500px;
   }
 
   .parent {

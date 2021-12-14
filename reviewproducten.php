@@ -22,7 +22,7 @@
         <section>
             <article>
 
-                <img src="image/314342a3-0868-411d-812e-18f6091b12a1.png" alt="werknemers">
+                <img src="image/314342a3-0868-411d-812e-18f6091b12a1.png" alt="werknemers" class="responsive">
 
                 <!-- /*Here begins the form with a working php.*/ -->
                    <form method="post" action="">

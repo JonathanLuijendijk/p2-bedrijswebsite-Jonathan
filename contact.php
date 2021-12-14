@@ -18,7 +18,7 @@
     <main>
         <section>
             <article>
-                <img src="image/restaurant.png" alt="restaurant">
+                <img src="image/restaurant.png" alt="restaurant" class="responsive">
                 <h1>De werknemers van Shabu to Go</h1>
                 <p>Om lekker sushi te maken, hebben we natuurlijk chefkoks nodig en werknemers nodig om eten te
                     bezorgen.</p>

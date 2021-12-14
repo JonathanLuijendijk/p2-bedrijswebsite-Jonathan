@@ -19,7 +19,7 @@
 <main>
   <section>
     <article>
-        <img src="image/Personeel-820x480.jpg" alt="personeel">
+        <img src="image/Personeel-820x480.jpg" alt="personeel" class="responsive">
       <h1>
         Welkom bij de medewerkers gezocht pagina!, wij zoeken JOU kom jij ons team versterken?
       </h1>
