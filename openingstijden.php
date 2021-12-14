@@ -16,7 +16,7 @@
     </header>
 <main>
     <section>
-    <img src="image/6c2065f3-8020-4f51-ac6d-50d81ffdc8c2.png" alt="sushi" class="responsive">
+    <img src="image/GoudenShabuToGO.jpg" alt="sushi" class="responsive" width="750" height="750">
     <p> <h1>Openingstijden Shabu To Go:</h1></p>
     <section class="tabel2">
                 <TABLE BORDER="1">
