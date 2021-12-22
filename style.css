@@ -301,6 +301,7 @@ nav a{
   display: none;
   padding: 2em;
   margin: 2em;
+  background: #444;
 }
 
 nav li:hover .menu-sub {
