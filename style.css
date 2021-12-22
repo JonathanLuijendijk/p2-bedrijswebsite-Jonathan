@@ -143,6 +143,10 @@ button {
 
 /* navigation styles start here */
 
+* {
+  box-sizing: border-box;
+}
+
 header {
   background: var(--background);
   text-align: center;
@@ -193,7 +197,7 @@ header {
 nav {
   position: absolute;
   text-align: left;
- 
+  box-shadow: 0 0 15px 0 rgba(0,0,0,.10);
   left: 0;
   width: 100%;
   transform: scale(1, 0);
@@ -205,17 +209,22 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  position: relative;
+  text-align: left;
 }
 
 nav li {
   margin-bottom: 1em;
   margin-left: 1em;
+  display: inline-block;
 }
 
 nav a {
   text-decoration: none;
+  display: block;
   font-size: 1.2 rem;
   text-transform: uppercase;
+  text-decoration: none;
   opacity: 0;
   transition: opacity 150ms ease-in-out;
 }
@@ -230,6 +239,98 @@ nav a {
 .nav-toggle:checked ~ nav a {
   opacity: 1;
   transition: opacity 250ms ease-in-out 250ms;
+}
+
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+/* Navigation dropdown starts here */
+
+nav {
+  box-shadow: 0 0 15px 0 rgba(0,0,0,.10)
+}
+
+nav ul{
+  list-style: none;
+  position: relative;
+  display: grid;
+}
+
+nav li{
+  display: inline-block;
+}
+
+nav a{
+  text-decoration: none;
+  display: block;
+  padding: .25em;
+}
+
+.menu-sub {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  display: none;
+  padding: 2em;
+  margin: 2em;
+}
+
+nav li:hover .menu-sub {
+  display: block;
+}
+
+.menu-sub li {
+  display: block;
+}
+
+.menu-sub a {
+  padding: 0;
+  margin-bottom: .35em;
+}
+
+.menu-sub a:hover {
+  text-decoration: underline;
+}
+
+.menu-category {
+  margin: 2.5em;
+}
+
+.menu-category:first-of-type {
+  margin-top: 0;
+}
+
+.menu-col-1 {
+ float: left;
+ width: 25%;
 }
 
 /* This is a screen for phones like samsung */
@@ -265,7 +366,7 @@ input {
 }
 
 /* This screen is for tablet. */
-@media screen and (min-width: 700px) {
+@media screen and (min-width: 700px) and (max-width: 1299px){
   p {
   font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   }
@@ -275,6 +376,17 @@ input {
     height: 550px;
   }
 
+  .button {
+    width: 78em;
+  }
+
+  .parent {
+    width: 65em;
+  }
+}
+
+/* This screen is for a tablet with more pixels */
+@media screen and (min-width: 1100px) and (max-width: 1299px){
   .button {
     width: 1280px;
   }
@@ -294,7 +406,7 @@ input {
 
   .responsive {
     width: 1500px;
-    height: 500px;
+    height: 650px;
   }
 
   .parent {

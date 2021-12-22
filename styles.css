@@ -64,6 +64,10 @@ nav a:hover {
 color: #ff1493
 }
 
+nav li:hover {
+  color: #fff;
+}
+
 .nav-toggle-label {
   border: solid red
 }
@@ -74,6 +78,22 @@ color: #ff1493
   background: white;
 }
 
+/* Navigation dropdown starts here */
+body {
+  background-color: #f1f1f1;
+}
+
+nav a{
+  color: #fff;
+}
+
+nav li:hover {
+  background: #444;
+  }
+.menu-sub {
+  background: #444;
+  color: #fff;
+}
 
 @media screen and (min-width: 800px) {
 
