@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bestellen</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -19,7 +18,7 @@
     <main>
         <section>
             <article>
-                <img src="image/shabu.jpg" alt="sushi" height="2250">
+                <img src="image/shabu.jpg" alt="sushi">
                 <h1>Bestellen</h1>
                 <p>Bestel hier de gerechten.</p>
                 <h2>Sushi + Maki</h2>
