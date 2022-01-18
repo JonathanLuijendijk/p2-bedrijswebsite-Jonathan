@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>De postcode</title>
+    <title>Gegevens van klanten</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -14,37 +14,35 @@
     </header>
     <img src="image/ss_xmas_menu06.jpg" alt="sushi" class="responsive">
 
-    <h1>Postcode van 3200 of hoger</h1>
-    <p>Hier kun je zien welk postcode de klanten hebben.<br>
-    De volgorde staat van de laagste naar de hoogste postcode nummer.</p>
-    <br>
-
-
+<h1>De gegevens van de klanten</h1>
+<p>Hier staan de gegevens van de klanten.<br>
+De gegevens staat op volgorde van je KlantID</p>
+<br>
 <?php 
 //connection to a db// 
     require_once("dbconshabu.php");
 
-    $query = $db->prepare("SELECT * FROM `client` WHERE postalcode > 3200 ORDER BY `client`.`postalcode` ASC");
+    $query = $db->prepare("SELECT * FROM `client` ORDER BY clientid ASC");
     $query->execute();
 
     $resultq = $query->fetchALL(PDO::FETCH_ASSOC);
 
     foreach($resultq as $data) {
     echo " KlantID : " .$data['clientid'];
-    echo "<br>";   
+    echo "<br>";  
     echo " Naam : ". $data['name'];
-    echo "<br>";  
+    echo "<br>"; 
     echo " telefoonnummer : ". $data['phone number'];
-    echo "<br>";  
+    echo "<br>"; 
     echo " leeftijd : ". $data['age'];
-    echo "<br>";  
+    echo "<br>"; 
     echo " Geslacht : ". $data['gender'];
-    echo "<br>";  
+    echo "<br>"; 
     echo " Plaats : ". $data['place'];
-    echo "<br>";  
+    echo "<br>"; 
     echo " Postcode : ". $data['postalcode'];
     echo "<br>";  
-    echo "<br>";  
+    echo "<br>"; 
     }
 
 ?>

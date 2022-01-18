@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>De postcode</title>
+    <title>Woonplaats Hoogvliet</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -14,24 +14,21 @@
     </header>
     <img src="image/ss_xmas_menu06.jpg" alt="sushi" class="responsive">
 
-    <h1>Postcode van 3200 of hoger</h1>
-    <p>Hier kun je zien welk postcode de klanten hebben.<br>
-    De volgorde staat van de laagste naar de hoogste postcode nummer.</p>
-    <br>
+    <h1>Woonplaats Hoogvliet</h1>
 
 
 <?php 
 //connection to a db// 
     require_once("dbconshabu.php");
 
-    $query = $db->prepare("SELECT * FROM `client` WHERE postalcode > 3200 ORDER BY `client`.`postalcode` ASC");
+    $query = $db->prepare("SELECT * FROM `client` WHERE place LIKE '%Hoogvliet%' ORDER BY `client`.`postalcode` ASC");
     $query->execute();
 
     $resultq = $query->fetchALL(PDO::FETCH_ASSOC);
 
     foreach($resultq as $data) {
-    echo " KlantID : " .$data['clientid'];
-    echo "<br>";   
+    echo " KlantID : " .$data['clientid']; 
+    echo "<br>";  
     echo " Naam : ". $data['name'];
     echo "<br>";  
     echo " telefoonnummer : ". $data['phone number'];
