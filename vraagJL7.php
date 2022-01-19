@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hoeveel producten kopen mensen per order?</title>
+    <title>Wat zijn onze goedkoopste producten?</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -14,7 +14,7 @@
     </header>
     <img src="image/ss_xmas_menu06.jpg" alt="sushi" class="responsive">
 
-<h1>Hoeveel producten kopen mensen per order?</h1>
+<h1>Wat zijn onze goedkoopste producten?</h1>
 
 <?php 
     //verbinding met database// 
