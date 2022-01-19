@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bestellen</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -18,50 +18,42 @@
     <main>
         <section>
             <article>
-                <img src="image/6c2065f3-8020-4f51-ac6d-50d81ffdc8c2.png" alt="sushi">
+                <img src="image/shabu.jpg" alt="sushi">
                 <h1>Bestellen</h1>
                 <p>Bestel hier de gerechten.</p>
-                <h2>Acties</h2>
+                <h2>Sushi + Maki</h2>
             </article>
         </section>
 
+<?php include 'button.html'; ?>
 
-        <section class="container">
-            <article class="container">
-                <ul>
-                    <img src="image/Sasimi-salad.png" alt="acties">
-                    <p class="parent">Sasimi salad</p>
-                    <button type="button" class="button button3">+ €6,95</button>
-                </ul>
-
-                <ul><img src="image/Torikatsu-salad.png" alt="acties">
-                    <p class="parent">Torikatsu salad</p>
-                    <button type="button" class="button button3">+ €6,50</button>
-                </ul>
-
-                <ul><img src="image/Zalm-mousse-salad.png" alt="acties">
-                    <p class="parent">Zalm mousse salad</p>
-                    <button type="button" class="button button3">+ €5,95</button>
-                </ul>
+        <section class="button2">
+            <article class="button2">
+                <button type="button">
+                    <link><a href="bestellen.php">Sushi</a>
+                </button>
+                <button type="button">
+                    <link><a href="bestellen2.php">Nigiri</a>
+                </button>
             </article>
         </section>
 
         <section class="container">
             <article class="container">
                 <ul>
-                    <img src="image/Sushisensationfor2.png" alt="acties">
-                    <p class="parent">Sushi sensation for 2 26 stuks</p>
-                    <button type="button" class="button button3">+ €33,95</button>
+                    <img src="image/Whitedragon.jpg" alt="sushi">
+                    <p class="parent">White dragon roll 8 stuks</p>
+                    <button type="button" class="button button3">+ €11,90</button>
                 </ul>
                 <ul>
-                    <img src="image/Double-chicken-bento.png" alt="acties">
-                    <p class="parent">Double chicken bento 14 stuks</p>
-                    <button type="button" class="button button3">+ €9,25</button>
+                    <img src="image/Vulcanoroll.jpg" alt="sushi">
+                    <p class="parent">Vulcano roll 8 stuks</p>
+                    <button type="button" class="button button3">+ €11,90</button>
                 </ul>
                 <ul>
-                    <img src="image/KFS.png" alt="acties">
-                    <p class="parent">Chicken wings 4 stuks</p>
-                    <button type="button" class="button button3">+ €3,00</button>
+                    <img src="image/SalmonEbiRoll.jpg" alt="sushi">
+                    <p class="parent">Salmon Ebi Roll 8 stuks</p>
+                    <button type="button" class="button button3">+ €11,90</button>
                 </ul>
             </article>
         </section>
@@ -69,34 +61,154 @@
         <section class="container">
             <article class="container">
                 <ul>
-                    <img src="image/Chickenmeatballs.png" alt="acties">
-                    <p class="parent">Chicken meat balls 3 spiezen</p>
-                    <button type="button" class="button button3">+ €3,00</button>
+                    <img src="image/Unagiroll.jpg" alt="sushi">
+                    <p class="parent">Unagi Roll 8 stuks</p>
+                    <button type="button" class="button button3">+ €11,90</button>
                 </ul>
                 <ul>
-                    <img src="image/Nicetomeetsushibox.png" alt="acties">
-                    <p class="parent">Nice to meet sushi box 40 stuks</p>
-                    <button type="button" class="button button3">+ €32,50</button>
+                    <img src="image/ChickenTeriyakiRoll.jpg" alt="sushi">
+                    <p class="parent">Chicken Teriyaki Roll 8 stuks</p>
+                    <button type="button" class="button button3">+ €11,40</button>
                 </ul>
                 <ul>
-                    <img src="image/festivalpletter.png" alt="acties" class="img">
-                    <p class="parent">Festival Platter 34 stuks</p>
-                    <button type="button" class="button button3">+ €34,50</button>
+                    <img src="image/DoubleSalmonRoll.jpg" alt="sushi">
+                    <p class="parent">Double Salmon Roll 8 stuks</p>
+                    <button type="button" class="button button3">+ €12,90</button>
                 </ul>
             </article>
         </section>
 
-        <section>
-            <article>
+        <section class="container">
+            <article class="container">
                 <ul>
-                    <img src="image/SearedebiNigiri.png" alt="SeaRedEbiNigiri">
-                    <p class="parent child">Sea red ebi Nigiri 3 stuks</p>
-                    <button type="button" class="button button3">+ €5,00</button>
+                    <img src="image/SalmonSurimiRoll.jpg" alt="sushi">
+                    <p class="parent">Salmon Surimi Soll 8 stuks</p>
+                    <button type="button" class="button button3">+ €11,90</button>
+                </ul>
+                <ul>
+                    <img src="image/DragonRoll.jpg" alt="sushi">
+                    <p class="parent">Dragon Roll 8 stuks</p>
+                    <button type="button" class="button button3">+ €11,90</button>
+                </ul>
+                <ul>
+                    <img src="image/MonsterEbiRoll.jpg" alt="sushi">
+                    <p class="parent">Monster Ebi Roll 4 stuks</p>
+                    <button type="button" class="button button3">+ €9,10</button>
+                </ul>
+            </article>
+        </section>
+
+        <section class="container">
+            <article class="container">
+                <ul>
+                    <img src="image/MonsterSalmonRoll.jpg" alt="sushi">
+                    <p class="parent">Monster Salmon Roll 4 stuks</p>
+                    <button type="button" class="button button3">+ €9,10</button>
+                </ul>
+                <ul>
+                    <img src="image/WasabiSalmon.jpg" alt="sushi">
+                    <p class="parent">Wasabi Salmon 4 stuks</p>
+                    <button type="button" class="button button3">+ €4,90</button>
+                </ul>
+                <ul>
+                    <img src="image/CrispyChicken.jpg" alt="sushi">
+                    <p class="parent">Crispy Chicken 4 stuks</p>
+                    <button type="button" class="button button3">+ €4,90</button>
+                </ul>
+            </article>
+        </section>
+
+        <section class="container">
+            <article class="container">
+                <ul>
+                    <img src="image/CaliforniaSalmon.jpg" alt="sushi">
+                    <p class="parent">California Salmon 6 stuks</p>
+                    <button type="button" class="button button3">+ €6,00</button>
+                </ul>
+                <ul>
+                    <img src="image/CaliforniaCrab.jpg" alt="sushi">
+                    <p class="parent">California Crab 4 stuks</p>
+                    <button type="button" class="button button3">+ €4,70</button>
+                </ul>
+                <ul>
+                    <img src="image/Salmonmousse.jpg" alt="sushi">
+                    <p class="parent">Salmon Mousse</p>
+                    <button type="button" class="button button3">+ €4,20</button>
+                </ul>
+            </article>
+        </section>
+
+        <section class="container">
+            <article class="container">
+                <ul>
+                    <img src="image/SpicyTunaMousse.jpg" alt="sushi">
+                    <p class="parent">Spicy Tuna Mousse 4 stuks</p>
+                    <button type="button" class="button button3">+ €4,70</button>
+                </ul>
+                <ul>
+                    <img src="image/CrunchyRoll.jpg" alt="sushi" width="500">
+                    <p class="parent">Crunchy Roll 4 stuks</p>
+                    <button type="button" class="button button3">+ €4,90</button>
+                </ul>
+                <ul>
+                    <img src="image/CrispyEbi.jpg" alt="sushi">
+                    <p class="parent">Crispy ebi 4 stuks</p>
+                    <button type="button" class="button button3">+ €4,90</button>
+                </ul>
+            </article>
+        </section>
+
+        <section class="container">
+            <article class="container">
+                <ul>
+                    <img src="image/TunaRoll.jpg" alt="sushi">
+                    <p class="parent">Tuna Roll 4 stuks</p>
+                    <button type="button" class="button button3">+ €5,70</button>
+                </ul>
+                <ul>
+                    <img src="image/SalmonRoll.jpg" alt="sushi" width="500">
+                    <p class="parent">Salmon Roll 4 stuks</p>
+                    <button type="button" class="button button3">+ €5,70</button>
+                </ul>
+                <ul>
+                    <img src="image/KappaMaki.jpg" alt="sushi">
+                    <p class="parent">Kappa Maki 6 stuks</p>
+                    <button type="button" class="button button3">+ €3,90</button>
                 </ul>
             </article>
         </section>
 
         <br>
+
+        <section class="container">
+            <article class="container">
+                <ul>
+                    <img src="image/TamagoMaki.jpg" alt="sushi">
+                    <p class="parent">Tamago Maki 6 stuks</p>
+                    <button type="button" class="button button3">+ €3,90</button>
+                </ul>
+                <ul>
+                    <img src="image/SalmonMaki.jpg" alt="sushi">
+                    <p class="parent">Salmon Maki 6 stuks</p>
+                    <button type="button" class="button button3">+ €4,70</button>
+                </ul>
+                <ul>
+                    <img src="image/TunaMaki.jpg" alt="sushi">
+                    <p class="parent">Tuna Maki 6 stuks</p>
+                    <button type="button" class="button button3">+ €4,90</button>
+                </ul>
+            </article>
+        </section>
+
+        <section class="container">
+            <article class="container">
+                <ul>
+                    <img src="image/AvocadoMaki.jpg" alt="sushi">
+                    <p class="parent">Avocado Maki 6 stuks</p>
+                    <button type="button" class="button button3">+ €4,10</button>
+                </ul>
+            </article>
+        </section>
 
         <section class="button2">
             <article class="button2">

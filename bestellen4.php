@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bestellen</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -18,49 +17,31 @@
     <main>
         <section>
             <article>
-                <img src="image/6c2065f3-8020-4f51-ac6d-50d81ffdc8c2.png" alt="sushi">
+            <img src="image/shabu.jpg" alt="sushi">
                 <h1>Bestellen</h1>
                 <p>Bestel hier de gerechten.</p>
-                <h2>Sushi Nigiri + Sashimi</h2>
+                <h2>Poke Bowls</h2>
             </article>
         </section>
+
+        <?php include 'button.html'; ?>
 
         <section class="container">
             <article class="container">
                 <ul>
-                    <img src="image/SalmonNigiri.jpg" alt="sushi">
-                    <p class="parent">Salmon Nigiri 2 stuks</p>
-                    <button type="button" class="button button3">+ €3,90</button>
+                    <img src="image/PokéSalmon.jpg" alt="sushi">
+                    <p class="parent">Poke Salmon</p>
+                    <button type="button" class="button button3">+ €10,00</button>
                 </ul>
                 <ul>
-                    <img src="image/TunaNigiri.jpg" alt="sushi">
-                    <p class="parent">Tuna Nigiri 2 stuks</p>
-                    <button type="button" class="button button3">+ €4,20</button>
+                    <img src="image/PokéTuna.jpg" alt="sushi">
+                    <p class="parent">Poke Tuna</p>
+                    <button type="button" class="button button3">+ €12,00</button>
                 </ul>
                 <ul>
-                    <img src="image/SurimiNigiri.jpg" alt="sushi">
-                    <p class="parent">Surimi Nigiri 2 stuks</p>
-                    <button type="button" class="button button3">+ €3,60</button>
-                </ul>
-            </article>
-        </section>
-
-        <section class="container">
-            <article class="container">
-                <ul>
-                    <img src="image/TamagoNigiri.jpg" alt="sushi">
-                    <p class="parent">Tamago Nigiri 2 stuks</p>
-                    <button type="button" class="button button3">+ €3,60</button>
-                </ul>
-                <ul>
-                    <img src="image/UnagiNigiri.jpg" alt="sushi">
-                    <p class="parent">Unagi Nigiri 2 stuks</p>
-                    <button type="button" class="button button3">+ €4,90</button>
-                </ul>
-                <ul>
-                    <img src="image/SearedSalmonNigiri.jpg" alt="sushi">
-                    <p class="parent">Seared Salmon Nigiri 2 stuks</p>
-                    <button type="button" class="button button3">+ €4,70</button>
+                    <img src="image/PokéSalmonTuna.jpg" alt="sushi">
+                    <p class="parent">Poke Salmon Tuna</p>
+                    <button type="button" class="button button3">+ €11,30</button>
                 </ul>
             </article>
         </section>
@@ -68,19 +49,19 @@
         <section class="container">
             <article class="container">
                 <ul>
-                    <img src="image/SearedTunaNigiri.jpg" alt="sushi">
-                    <p class="parent">Seared Tuna Nigiri 2 stuks</p>
-                    <button type="button" class="button button3">+ €4,70</button>
+                    <img src="image/PokéChicken.jpg" alt="sushi">
+                    <p class="parent">Poke Chicken</p>
+                    <button type="button" class="button button3">+ €9,90</button>
                 </ul>
                 <ul>
-                    <img src="image/SearedCrabLegNigiri.jpg" alt="sushi">
-                    <p class="parent">Seared Crab Leg Nigiri 2 stuks</p>
-                    <button type="button" class="button button3">+ €4,70</button>
+                    <img src="image/PokéShrimps.jpg" alt="sushi">
+                    <p class="parent">Poke Shrimps</p>
+                    <button type="button" class="button button3">+ €10,00</button>
                 </ul>
                 <ul>
-                    <img src="image/SalmonSashimi.jpg" alt="sushi">
-                    <p class="parent">Salmon Sashimi 5 stuks</p>
-                    <button type="button" class="button button3">+ €7,10</button>
+                    <img src="image/PokéAvocado.jpg" alt="sushi">
+                    <p class="parent">Poke Avocado</p>
+                    <button type="button" class="button button3">+ €10,40</button>
                 </ul>
             </article>
         </section>
@@ -88,14 +69,49 @@
         <section class="container">
             <article class="container">
                 <ul>
-                    <img src="image/TunaSashimi.jpg" alt="sushi">
-                    <p class="parent">Tuna Sashimi 5 stuks</p>
-                    <button type="button" class="button button3">+ €7,10</button>
+                    <img src="image/BeefTeriyakiBowl.jpg" alt="sushi">
+                    <p class="parent">Beef TeriyakiBowl</p>
+                    <button type="button" class="button button3">+ €11,80</button>
                 </ul>
                 <ul>
-                    <img src="image/SashimiMix.jpg" alt="sushi">
-                    <p class="parent">Sashimi Mix 6 stuks (3 tonijn en 3 zalm)</p>
-                    <button type="button" class="button button3">+ €8,40</button>
+                    <img src="image/ChickenTeriyakiBowl.jpg" alt="sushi">
+                    <p class="parent">Chicken Teriyaki Bowl</p>
+                    <button type="button" class="button button3">+ €9,80</button>
+                </ul>
+                <ul>
+                    <img src="image/GrilledShrimpsBowl.jpg" alt="sushi">
+                    <p class="parent">Griled Shrimps Bowl</p>
+                    <button type="button" class="button button3">+ €10,10</button>
+                </ul>
+            </article>
+        </section>
+
+        <section class="container">
+            <article class="container">
+                <ul>
+                    <img src="image/GrilledSalmonBowl.jpg" alt="sushi" width="500">
+                    <p class="parent">Grilled Salmon Bowl</p>
+                    <button type="button" class="button button3">+ 10,80</button>
+                </ul>
+                <ul>
+                    <img src="image/TorikatsuCurry.jpg" alt="sushi">
+                    <p class="parent">Torikatsu Curry</p>
+                    <button type="button" class="button button3">+ 9,70</button>
+                </ul>
+                <ul>
+                    <img src="image/ChickenCurryBowl.png" alt="sushi" width="500">
+                    <p class="parent">Chicken Curry Bowl</p>
+                    <button type="button" class="button button3">+ €9,70</button>
+                </ul>
+            </article>
+        </section>
+
+        <section class="container">
+            <article class="container">
+                <ul>
+                    <img src="image/FriedRamen.jpg" alt="sushi">
+                    <p class="parent">Fried Ramen</p>
+                    <button type="button" class="button button3">+ €6,70</button>
                 </ul>
             </article>
         </section>
