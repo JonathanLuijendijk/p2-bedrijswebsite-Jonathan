@@ -20,7 +20,7 @@
     //db connection// 
     require_once("dbconshabu.php");
 
-    $query = $db->prepare("SELECT * FROM `client` WHERE 'name' LIKE %U% ");
+    $query = $db->prepare("SELECT * FROM client WHERE name LIKE '%U%' ;");
     $query->execute();
 
     $resultq = $query->fetchALL(PDO::FETCH_ASSOC);

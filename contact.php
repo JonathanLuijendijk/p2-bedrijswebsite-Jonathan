@@ -19,8 +19,13 @@
             <article>
                 <img src="image/restaurant.png" alt="restaurant" class="responsive">
                 <h1>De werknemers van Shabu to Go</h1>
-                <p>Om lekker sushi te maken, hebben we natuurlijk chefkoks nodig en werknemers nodig om eten te
-                    bezorgen.</p>
+                <p>Om lekker sushi te maken, hebben we natuurlijk chefkoks nodig en werknemers nodig om eten te bezorgen. </p>
+
+                <h2>Meer informatie?</h2> 
+                <p> Als uw contact wilt leggen met een van onze werknemers, Of meer informatie over ons bedrijf wilt
+                <br> dan kun je ons bellen naar de nummer +31 10348622. 
+                <br> Je kan ook mailen naar de werkgever toadenstartoad@gmail.com of naar dannyduyanhnguyen@outlook.com.
+                <br> Als dat niet lukt zou uw altijd bij ons lags kunnen komen. </p>
             </article>
         </section>
 
@@ -97,16 +102,6 @@
                         Zij neemt contact op van de mensen die via hun telefoon iets willen bestellen.<br>
                         Ze werkt ook eventueel bij de kassa als het druk is.</p>
                 </ul>
-            </article>
-        </section>
-
-        <section>
-            <article>
-                <h2>Meer informatie?</h2>
-                <p>Wil je meer informatie, dan kun je bellen naar de nummer +31 10348622 en als dat niet lukt, kun je
-                    +112 bellen.<br>
-                    Je kan ook mailen naar de werkgever toadenstartoad@gmail.com of naar dannyduyanhnguyen@outlook.com.
-                </p>
             </article>
         </section>
     </main>

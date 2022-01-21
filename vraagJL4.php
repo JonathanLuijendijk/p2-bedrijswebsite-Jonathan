@@ -20,7 +20,7 @@
 //db connection// 
     require_once("dbconshabu.php");
 
-    $query = $db->prepare("SELECT * FROM `client` WHERE 'place' LIKE %Rotterdam% ");
+    $query = $db->prepare("SELECT * FROM client WHERE place LIKE '%Rotterdam%' ;");
     $query->execute();
 
     $resultq = $query->fetchALL(PDO::FETCH_ASSOC);

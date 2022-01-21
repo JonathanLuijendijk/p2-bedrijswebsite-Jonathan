@@ -20,7 +20,7 @@
 //db connection// 
     require_once("dbconshabu.php");
 
-    $query = $db->prepare("SELECT * FROM `client` ORDER BY 'age' AND > 65 ");
+    $query = $db->prepare("SELECT * FROM client WHERE age >= '50' ;");
     $query->execute();
 
     $resultq = $query->fetchALL(PDO::FETCH_ASSOC);
@@ -31,10 +31,10 @@
         echo " Naam : ". $data['name'];
         echo "<br>";
         echo " leeftijd : ". $data['age'];
-        echo "<br>"; 
+        echo "<br>";
         echo " Geslacht : ". $data['gender']; 
-        echo "<br>";  
-        echo "<br>"; 
+        echo "<br>";
+        echo "<br>";
         }
 
 ?>

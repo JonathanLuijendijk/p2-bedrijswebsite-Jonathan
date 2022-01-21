@@ -20,7 +20,7 @@
     //db connection// 
     require_once("dbconshabu.php");
 
-    $query = $db->prepare("SELECT * FROM `product` ORDER BY 'prijs' AND > 20 ");
+    $query = $db->prepare("SELECT * FROM product WHERE prijs > '20' ;");
     $query->execute();
 
     $resultq = $query->fetchALL(PDO::FETCH_ASSOC);

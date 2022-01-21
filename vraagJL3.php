@@ -20,7 +20,7 @@
 //db connection// 
     require_once("dbconshabu.php");
 
-    $query = $db->prepare("SELECT * FROM `client` ORDER BY 'age' AND < 21 ");
+    $query = $db->prepare("SELECT * FROM client WHERE age  <= '19' ;");
     $query->execute();
 
     $resultq = $query->fetchALL(PDO::FETCH_ASSOC);
