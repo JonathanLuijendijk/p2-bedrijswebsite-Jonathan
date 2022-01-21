@@ -20,7 +20,7 @@
     //db connection// 
     require_once("dbconshabu.php");
 
-    $query = $db->prepare("SELECT * FROM product WHERE prijs > '20' ;");
+    $query = $db->prepare("SELECT * FROM product WHERE prijs >= '20' ;");
     $query->execute();
 
     $resultq = $query->fetchALL(PDO::FETCH_ASSOC);
@@ -29,9 +29,7 @@
       echo " ProductID : " .$data['productid'];
       echo "<br>";  
       echo " Naam : ". $data['naam'];
-      echo "<br>"; 
-      echo " Soort : ". $data['soort'];
-      echo "<br>"; 
+      echo "<br>";
       echo " Prijs : ". $data['prijs'];
       echo "<br>";  
       echo "<br>"; 

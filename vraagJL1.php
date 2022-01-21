@@ -20,7 +20,7 @@
 //db connection// 
     require_once("dbconshabu.php");
 
-    $query = $db->prepare("SELECT * FROM orderline ORDER BY product_idproduct ASC ");
+    $query = $db->prepare("SELECT * FROM orderline ORDER BY idorderline ;");
     $query->execute();
 
     $resultq = $query->fetchALL(PDO::FETCH_ASSOC);
@@ -29,6 +29,7 @@
     echo " orderID : " .$data['idorderline'];
     echo "<br>";  
     echo " Amount of products : ". $data['amount'];
+    echo "<br>";
     echo "<br>";
     }
 

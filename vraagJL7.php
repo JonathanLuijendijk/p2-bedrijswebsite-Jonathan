@@ -20,7 +20,7 @@
     //verbinding met database// 
     require_once("dbconshabu.php");
 
-    $query = $db->prepare("SELECT * FROM product WHERE prijs < '5' ;");
+    $query = $db->prepare("SELECT * FROM product WHERE prijs <= '5' ;");
     $query->execute();
 
     $resultq = $query->fetchALL(PDO::FETCH_ASSOC);
