@@ -22,26 +22,28 @@ De gegevens staat op volgorde van je KlantID</p>
 //connection to a db// 
     require_once("dbconshabu.php");
 
-    $query = $db->prepare("SELECT * FROM `client` ORDER BY clientid ASC");
+    $query = $db->prepare("SELECT * FROM `customer` ORDER BY idcustomer ASC");
     $query->execute();
 
     $resultq = $query->fetchALL(PDO::FETCH_ASSOC);
 
     foreach($resultq as $data) {
-    echo " KlantID : " .$data['clientid'];
+    echo " KlantID : " .$data['idcustomer'];
     echo "<br>";  
     echo " Naam : ". $data['name'];
     echo "<br>"; 
-    echo " telefoonnummer : ". $data['phone number'];
+    echo " telefoonnummer : ". $data['phonenumber'];
     echo "<br>"; 
-    echo " leeftijd : ". $data['age'];
+    echo " geboortedatum : ". $data['dateofbirth'];
     echo "<br>"; 
     echo " Geslacht : ". $data['gender'];
     echo "<br>"; 
     echo " Plaats : ". $data['place'];
     echo "<br>"; 
+    echo " e-mail : ". $data['e-mail'];
+    echo "<br>"; 
     echo " Postcode : ". $data['postalcode'];
-    echo "<br>";  
+    echo "<br>";
     echo "<br>"; 
     }
 

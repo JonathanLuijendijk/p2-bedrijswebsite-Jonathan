@@ -23,27 +23,29 @@
 //connection to a db// 
     require_once("dbconshabu.php");
 
-    $query = $db->prepare("SELECT * FROM `client` WHERE name LIKE '%Nguyen%' ORDER BY `client`.`clientid` ASC");
+    $query = $db->prepare("SELECT * FROM `customer` WHERE name LIKE '%Nguyen%' ORDER BY `customer`.`idcustomer` ASC");
     $query->execute();
 
     $resultq = $query->fetchALL(PDO::FETCH_ASSOC);
 
     foreach($resultq as $data) {
-    echo " KlantID : " .$data['clientid']; 
-    echo "<br>";  
-    echo " Naam : ". $data['name'];
-    echo "<br>";  
-    echo " telefoonnummer : ". $data['phone number'];
-    echo "<br>";  
-    echo " leeftijd : ". $data['age'];
-    echo "<br>";  
-    echo " Geslacht : ". $data['gender'];
-    echo "<br>";  
-    echo " Plaats : ". $data['place'];
-    echo "<br>";  
-    echo " Postcode : ". $data['postalcode'];
-    echo "<br>";  
-    echo "<br>";  
+        echo " KlantID : " .$data['idcustomer'];
+        echo "<br>";  
+        echo " Naam : ". $data['name'];
+        echo "<br>"; 
+        echo " telefoonnummer : ". $data['phonenumber'];
+        echo "<br>"; 
+        echo " geboortedatum : ". $data['dateofbirth'];
+        echo "<br>"; 
+        echo " Geslacht : ". $data['gender'];
+        echo "<br>"; 
+        echo " Plaats : ". $data['place'];
+        echo "<br>"; 
+        echo " e-mail : ". $data['e-mail'];
+        echo "<br>"; 
+        echo " Postcode : ". $data['postalcode'];
+        echo "<br>";
+        echo "<br>"; 
     }
 
 ?>
