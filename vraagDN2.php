@@ -25,10 +25,22 @@
 
     $resultq = $query->fetchALL(PDO::FETCH_ASSOC);
 
-    foreach($resultq as $data) { 
+    if($query->rowCount() > 0){
+        echo "<table>";
+        echo "<thead>";
+        echo "<th>Aantal</th>";
+        echo "</thead><tbody>";
+    foreach($resultq as $data) {
+    echo "<tr>";
+    echo "<td>"; 
         echo " Aantal : ". $data['aantal'];
-        echo "<br>";   
+        echo "</td>";
+        echo "</tr>";   
     }
+    echo "</tbody></table>";
+} else {
+    echo "<h2>Helaas geen resultaten gevonden</h2>";
+}
 
 ?>
 

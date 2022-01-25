@@ -28,27 +28,45 @@
 
     $resultq = $query->fetchALL(PDO::FETCH_ASSOC);
 
-    foreach($resultq as $data) {
-        echo " KlantID : " .$data['idcustomer'];
-        echo "<br>";  
-        echo " Naam : ". $data['name'];
-        echo "<br>"; 
-        echo " telefoonnummer : ". $data['phonenumber'];
-        echo "<br>"; 
-        echo " geboortedatum : ". $data['dateofbirth'];
-        echo "<br>"; 
-        echo " Geslacht : ". $data['gender'];
-        echo "<br>"; 
-        echo " Plaats : ". $data['place'];
-        echo "<br>"; 
-        echo " e-mail : ". $data['e-mail'];
-        echo "<br>"; 
-        echo " Postcode : ". $data['postalcode'];
-        echo "<br>";
-        echo "<br>"; 
-    }
+    if($query->rowCount() > 0){
+        echo "<table>";
+        echo "<thead>";
+        echo "<th>KlantID</th><th>Naam</th><th>telefoonnummmer</th><th>geboortedatum</th><th>Geslacht</th><th>Plaats</th><th>e-mail</th><th>Postcode</th>";
+        echo "</thead><tbody>";
+        foreach($resultq as $data) {
+            echo "<tr>";
+            echo "<td>";
+            echo " ". $data['idcustomer'];
+            echo "</td>";
+            echo "<td>";
+            echo " ". $data['name'];
+            echo "</td>";
+            echo "<td>";
+            echo " ". $data['phonenumber'];
+            echo "</td>";
+            echo "<td>";
+            echo "  ". $data['dateofbirth'];
+            echo "</td>";
+            echo "<td>";
+            echo "  ". $data['gender'];
+            echo "</td>";
+            echo "<td>";
+            echo "  ". $data['place'];
+            echo "</td>";
+            echo "<td>";
+            echo " ". $data['e-mail'];
+            echo "<td>";
+            echo " ". $data['postalcode'];
+            echo "</td>";
+            echo "</tr>";
+            }
+            echo "</tbody></table>";
+        } else {
+            echo "<h2>Helaas geen resultaten gevonden</h2>";
+        }
 
 ?>
+
 
 
 <footer>
