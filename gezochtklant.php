@@ -22,16 +22,25 @@ include 'dbconshabu.php';
 <?php 
         require_once ("dbconshabu.php"); 
         $zoek=filter_var($_POST["search"], FILTER_SANITIZE_STRING);
+//        var_dump($zoek);
         $query = $db->prepare("SELECT name FROM customer
-        WHERE name LIKE :name");
-        $query->bindValue(':name', "%$zoek%");
+        WHERE name LIKE :cname");
+        $query->bindValue(':cname', "%$zoek%");
+        $query->execute();
+//        var_dump($query);
         $resultq = $query->fetchALL (PDO::FETCH_ASSOC);
-        var_dump($resultq);
 
-        foreach($resultq as $data) {
-              echo " Naam : ". $data['name'];
-             echo "<br>"; 
-            }
+        if ($query->rowCount() > 0){ 
+            
+            foreach($resultq as $data) {
+                echo " Naam : ". $data['name'];
+               echo "<br>"; 
+              }
+  
+        }
+        else {
+            echo "<h2>Helaas .... geen resultaten gevonden</h2>";
+        }
 ?>
 
 </body>

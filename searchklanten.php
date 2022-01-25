@@ -17,8 +17,8 @@
         <article>
     <p>Zoek hier je klant gegevens op.</p>
     <form method="POST" action="gezochtklant.php">
-        <input type="search" name="placeholder">
-        <input type="submit" name="search" value="search">
+        <input type="text" name="search" placeholder="geef naam klant op">
+        <input type="submit" name="submit">
     </form>
     
     </article>
