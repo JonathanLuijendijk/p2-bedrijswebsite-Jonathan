@@ -176,7 +176,7 @@ button {
 header {
   background: var(--background);
   text-align: center;
-  position: fixed;
+  position: relative;
   z-index: 999;
   width: 100%;
 }
@@ -250,16 +250,6 @@ nav li {
   display: inline-block;
 }
 
-nav a {
-  text-decoration: none;
-  display: block;
-  font-size: 1.2 rem;
-  text-transform: uppercase;
-  text-decoration: none;
-  opacity: 0;
-  transition: opacity 150ms ease-in-out;
-      color: white;
-}
 
 nav a:hover {
   color: #ff1493
@@ -561,7 +551,7 @@ nav li:hover {
 
   .responsive {
     width: 1500px;
-    height: 650px;
+    height: 550px;
   }
 
   .parent {
