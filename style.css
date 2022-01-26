@@ -12,15 +12,24 @@ article, aside, footer, header, main, nav, section {
     margin: 0;
   }
 
+/*This is the lay-out*/
+
 .banner {
 padding: 0px;
+background-color: #000000;
 }
+
+.parent {
+  background-color: hotpink;
+  }
 
 .child {
   width: 33vw;
 }
 
-
+:root {
+  --background: rgba(0, 0, 0, 0.5);
+}
 
 *, *::before, *::after {
   box-sizing: border-box;
@@ -32,34 +41,7 @@ margin-top: 0;
 height: 100px;
 font-family: 'Work Sans', sans-serif;
 font-weight: 400;
-}
-
-
-
-label {
-  float: left;
-  display: block;
-  width: 150px;
-}
-
-input {
-  display: block;
-}
-
-
-
-input[type="submit"] {
-  display: flex;
-    margin-left: 150px;
-}
-input[type="bericht"] {
-  display: flex;
-  margin-left : 150px;
-  width: 150px;
-}
-input[type="email"] {
-  display: flex;
-  margin-left: 150px;
+background-color: #f1f1f1;
 }
 
 img {
@@ -80,6 +62,16 @@ embed{
   place-items: center;
 }
 
+  
+
+/*This is for the table */ 
+table {
+  margin: 0px;
+  bottom: 0px;
+  border-width: 1px;
+  border-style: solid;
+  text-align: center;
+}
 
 .tabel2 {
   display: flex;
@@ -90,15 +82,30 @@ embed{
   background-color: pink;
 }
 
-
+/* the table ends here*/
 
 h1 {
   font-family: Verdana, Tahoma, sans-serif;
   padding-bottom: 0px;
+  color:hotpink
 }
+
+h2 {
+  color: hotpink;
+  }
+  
+  h3 {
+  color: hotpink;
+  }
+
+  
+  span {
+    color:whitesmoke;
+  }
 
 p{
 font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+color:black;
 }
 
 figcaption {
@@ -119,17 +126,10 @@ footer {
 height: 100px;
 width: 200vw;
 max-width: 100%;
+background-color: hotpink;
 position: relative;
 }
 
-
-table {
-  margin: 0px;
-  bottom: 0px;
-  border-width: 1px;
-  border-style: solid;
-  text-align: center;
-}
 
 
 td {
@@ -159,21 +159,36 @@ button {
   width: 32.5vw;
 }
 
+/* the form starts here */
+
+.label {
+  float: left;
+  display: block;
+  width: 10vw;
+}
+
 /* navigation styles start here */
+
+* {
+  box-sizing: border-box;
+}
 
 header {
   background: var(--background);
   text-align: center;
-  position: fixed;
+  position: relative;
   z-index: 999;
   width: 100%;
 }
+
+
 
 .nav-toggle {
   display: none;
 }
 
 .nav-toggle-label {
+  border: solid red;
   position: absolute;
   top: 0;
   left: 0;
@@ -192,6 +207,7 @@ header {
   width: 2em;
   border-radius: 2px;
   position: relative;
+  background: white;
 }
 
 .nav-toggle-label span::before,
@@ -209,9 +225,10 @@ header {
 }
 
 nav {
+  background-color: var(--background);
   position: absolute;
   text-align: left;
- 
+  box-shadow: 0 0 15px 0 rgba(0,0,0,.10);
   left: 0;
   width: 100%;
   transform: scale(1, 0);
@@ -223,22 +240,24 @@ nav ul {
   margin: 0;
   padding: 0;
   list-style: none;
+  position: relative;
+  text-align: left;
 }
 
 nav li {
   margin-bottom: 1em;
   margin-left: 1em;
-}
-
-nav a {
-  text-decoration: none;
-  font-size: 1.2 rem;
-  text-transform: uppercase;
-  opacity: 0;
-  transition: opacity 150ms ease-in-out;
+  display: inline-block;
 }
 
 
+nav a:hover {
+  color: #ff1493
+  }
+  
+  nav li:hover {
+    color: #fff;
+  }
 
 
 .nav-toggle:checked ~ nav {
@@ -250,7 +269,110 @@ nav a {
   transition: opacity 250ms ease-in-out 250ms;
 }
 
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+/* Navigation dropdown starts here */
+
+
+nav {
+  box-shadow: 0 0 15px 0 rgba(0,0,0,.10)
+}
+
+nav ul{
+  list-style: none;
+  position: relative;
+  display: grid;
+}
+
+nav li{
+  display: inline-block;
+}
+
+nav a{
+  text-decoration: none;
+  display: block;
+  color: #fff;
+  padding: .05em;
+}
+
+.menu-sub {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  display: none;
+  padding: 2em;
+  margin: 2em;
+  background: #444;
+  color: #fff;
+}
+
+nav li:hover {
+  background: #444;
+  }
+
+nav li:hover .menu-sub {
+  display: block;
+}
+
+.menu-sub li {
+  display: block;
+}
+
+.menu-sub a {
+  padding: 0;
+  margin-bottom: .35em;
+}
+
+.menu-sub a:hover {
+  text-decoration: underline;
+}
+
+.menu-category {
+  margin: 2.5em;
+}
+
+.menu-category:first-of-type {
+  margin-top: 0;
+}
+
+.menu-col-1 {
+ float: left;
+ width: 25%;
+}
+
+/* This is a screen for phones like samsung */
+
 @media screen and (max-width: 600px){
+
 
  .button3 {
    width: 100vw;
@@ -260,13 +382,176 @@ nav a {
   width: 100vw;
 }
 
+label {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 
 
+.col-25, .col-75, input[type=submit] {
+  width: 100%;
+  margin-top: 0;
+}
+
+input {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ width: 32vw;
+}
+
+
+}
+
+
+
+/* This screen is for tablet. */
+@media screen and (min-width: 700px) and (max-width: 1299px){
+  p {
+  font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .responsive {
+    width: 1500px;
+    height: 550px;
+  }
+
+  .button {
+    width: 78em;
+  }
+
+  .parent {
+    width: 65em;
+  }
+}
+
+/* This screen is for a tablet with more pixels */
+@media screen and (min-width: 1100px) and (max-width: 1299px){
+  .button {
+    width: 1280px;
+  }
+
+  .parent {
+    width: 1280px;
+  }
+  
+}
+
+/*This is the color for tablets or for bigger pixels */
 @media screen and (min-width: 800px) {
+
+  nav a::before {
+    background: hotpink;
+  }
+
+article, aside, footer, header, main, nav, section {
+    display: block;
+  }
+  
+  html, body, h1, h2, h3, ul, li, a, p, 
+  article, aside, footer, header, main, nav, section {
+    padding: 0;
+    margin: 0;
+  }
+
+:root {
+  --background: rgba(0, 0, 0, 0.5);
+}
+.banner {
+background-color: #000000;
+}
+
+.parent {
+background-color: hotpink;
+}
+
+body {
+background-color: white;
+}
+
+
+h1 {
+color:hotpink
+}
+
+h2 {
+color: hotpink;
+}
+
+h3 {
+color: hotpink;
+}
+
+p {
+color:black;
+}
+
+span {
+  color:whitesmoke;
+}
+
+footer {
+background-color: hotpink;
+}
+
+/* navigation styles start here */
+
+nav {
+background-color: var(--background);
+}
+
+nav a {
+  color: white;
+}
+
+nav a:hover {
+color: #ff1493
+}
+
+nav li:hover {
+  color: #fff;
+}
+
+.nav-toggle-label {
+  border: solid red
+}
+
+.nav-toggle-label span,
+.nav-toggle-label span::before,
+.nav-toggle-label span::after {
+  background: white;
+}
+
+/* Navigation dropdown for color starts here */
+body {
+  background-color: #f1f1f1;
+}
+
+nav a{
+  color: #fff;
+}
+
+nav li:hover {
+  background: #444;
+  }
+.menu-sub {
+  background: #444;
+  color: #fff;
+}
+
+  nav a::before {
+    background: hotpink;
+  }
+}
+
+/* This screen is for laptop and computers. */
+
+@media screen and (min-width: 1300px) {
   .nav-toggle-label {
     display: none;
+  }
+
+  .responsive {
+    width: 1500px;
+    height: 550px;
   }
 
   .parent {
@@ -337,4 +622,39 @@ nav a {
   nav a:hover::before {
     transform: scale(1,1);
   }
+}
+
+.boxContainer{
+  position: relative;
+  width: 280px;
+  height: 42px;
+  border: 4px solid hotpink;
+  padding: 0px 10px;
+  border-radius: 50px;
+}
+
+.elementsContainer{
+  vertical-align: middle;
+  border: black;
+}
+
+.search{
+  border: none;
+  height: 100%;
+  width: 100%;
+  padding: 0px 5px;
+  border-radius: 50px;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #424242;
+  font-weight: 500;
+}
+
+.search:focus{
+  outline: none;
+}
+
+.material-icons{
+  font-size: 26;
+  color: hotpink;
 }
