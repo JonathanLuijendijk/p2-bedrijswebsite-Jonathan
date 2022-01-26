@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-<header class="banner">
+<header class="bannerXL">
     <img src="image/logo.jpg" alt="logo" width="200" height="200">
         <?php include 'navigatie.html'; ?>
     </header>
@@ -23,24 +23,48 @@ include 'dbconshabu.php';
         require_once ("dbconshabu.php"); 
         $zoek=filter_var($_POST["search"], FILTER_SANITIZE_STRING);
 //        var_dump($zoek);
-        $query = $db->prepare("SELECT name FROM customer
+        $query = $db->prepare("SELECT * FROM customer
         WHERE name LIKE :cname");
         $query->bindValue(':cname', "%$zoek%");
         $query->execute();
 //        var_dump($query);
         $resultq = $query->fetchALL (PDO::FETCH_ASSOC);
-
-        if ($query->rowCount() > 0){ 
-            
-            foreach($resultq as $data) {
-                echo " Naam : ". $data['name'];
-               echo "<br>"; 
-              }
-  
+        if($query->rowCount() > 0){
+            echo "<table>";
+            echo "<thead>";
+            echo "<th>KlantID</th><th>Naam</th><th>telefoonnummmer</th><th>geboortedatum</th><th>Geslacht</th><th>Plaats</th><th>e-mail</th><th>Postcode</th>";
+            echo "</thead><tbody>";
+        foreach($resultq as $data) {
+        echo "<tr>";
+        echo "<td>";
+        echo " ". $data['idcustomer'];
+        echo "</td>";
+        echo "<td>";
+        echo " ". $data['name'];
+        echo "</td>";
+        echo "<td>";
+        echo " ". $data['phonenumber'];
+        echo "</td>";
+        echo "<td>";
+        echo "  ". $data['dateofbirth'];
+        echo "</td>";
+        echo "<td>";
+        echo "  ". $data['gender'];
+        echo "</td>";
+        echo "<td>";
+        echo "  ". $data['place'];
+        echo "</td>";
+        echo "<td>";
+        echo " ". $data['e-mail'];
+        echo "<td>";
+        echo " ". $data['postalcode'];
+        echo "</td>";
+        echo "</tr>";
         }
-        else {
-            echo "<h2>Helaas .... geen resultaten gevonden</h2>";
-        }
+        echo "</tbody></table>";
+    } else {
+        echo "<h2>Helaas geen resultaten gevonden</h2>";
+    }
 ?>
 
 </body>

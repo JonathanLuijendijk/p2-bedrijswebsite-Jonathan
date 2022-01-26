@@ -8,7 +8,7 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header class="banner">
+    <header class="banner bannerXL">
         <img src="image/logo.jpg" alt="logo" width="200" height="200">
         <?php   include 'navigatie.html'; ?>
     </header>
@@ -67,14 +67,6 @@
 
 ?>
 
-
-
-<footer>
-    <p><i>Nieuwsstraat 210<br>
-        3201 EE<br>
-        Spijkenisse</i>
-    </p>
-  </footer>
 
 </body>
 </html>

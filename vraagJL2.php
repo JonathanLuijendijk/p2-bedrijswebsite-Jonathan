@@ -4,24 +4,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Woonplaats Hoogvliet</title>
+    <title>Hoeveel ouderen kopen bij ons?</title>
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <header class="banner bannerXL">
+    <header class="banner">
         <img src="image/logo.jpg" alt="logo" width="200" height="200">
         <?php   include 'navigatie.html'; ?>
     </header>
     <img src="image/ss_xmas_menu06.jpg" alt="sushi" class="responsive">
 
-    <h1>Woonplaats Hoogvliet</h1>
-
+<h1>Hoeveel ouderen kopen bij ons?</h1>
 
 <?php 
-//connection to a db// 
+//db connection// 
     require_once("dbconshabu.php");
 
-    $query = $db->prepare("SELECT * FROM `customer` WHERE place LIKE '%Hoogvliet%' ORDER BY `customer`.`postalcode` ASC");
+    $query = $db->prepare("SELECT * FROM customer WHERE age >= '50' ;");
     $query->execute();
 
     $resultq = $query->fetchALL(PDO::FETCH_ASSOC);
@@ -29,42 +28,36 @@
     if($query->rowCount() > 0){
         echo "<table>";
         echo "<thead>";
-        echo "<th>KlantID</th><th>Naam</th><th>telefoonnummmer</th><th>geboortedatum</th><th>Geslacht</th><th>Plaats</th><th>e-mail</th><th>Postcode</th>";
+        echo "<th>KlantID</th><th>Naam</th><th>leeftijd</th><th>Geslacht</th>";
         echo "</thead><tbody>";
     foreach($resultq as $data) {
         echo "<tr>";
         echo "<td>";
-        echo " ". $data['idcustomer'];
+        echo "  " .$data['customerid'];
+        echo "</td>";  
+        echo "<td>";
+        echo "  ". $data['name'];
         echo "</td>";
         echo "<td>";
-        echo " ". $data['name'];
+        echo "  ". $data['age'];
         echo "</td>";
         echo "<td>";
-        echo " ". $data['phonenumber'];
+        echo "  ". $data['gender']; 
         echo "</td>";
-        echo "<td>";
-        echo "  ". $data['dateofbirth'];
-        echo "</td>";
-        echo "<td>";
-        echo "  ". $data['gender'];
-        echo "</td>";
-        echo "<td>";
-        echo "  ". $data['place'];
-        echo "</td>";
-        echo "<td>";
-        echo " ". $data['e-mail'];
-        echo "<td>";
-        echo " ". $data['postalcode'];
-        echo "</td>";
-        echo "</tr>";
-        }
-        echo "</tbody></table>";
+    }     echo "</tbody></table>";
     } else {
         echo "<h2>Helaas geen resultaten gevonden</h2>";
     }
 
 ?>
 
+
+<footer>
+    <p><i>Nieuwsstraat 210<br>
+        3201 EE<br>
+        Spijkenisse</i>
+    </p>
+  </footer>
 
 </body>
 </html>

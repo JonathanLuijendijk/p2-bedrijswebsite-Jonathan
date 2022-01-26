@@ -5,7 +5,6 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Shabu to GO</title>
-  <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -14,17 +13,75 @@
   <header class="banner">
     <img src="image/logo.jpg" alt="logo" width="200" height="200">
     <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+
     <nav>
-      <ul>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="overons.php">Over ons</a></li>
-        <li><a href="contact.php">Contact</a></li>
-        <li><a href="locatie.php">Locatie</a></li>
-        <li><a href="bestellen.php">Bestellen</a></li>
-        <li><a href="openingstijden.php">openingstijden</a></li>
-        <li><a href="reviewproducten.php">Formulier</a></li>
-      </ul>
+      <section>
+        <ul class="menu-main">
+          <section class="boxContainer">
+            <table class="elementsContainer">
+              <tr>
+                <td>
+                  <input type="text"  placeholder="Search" class="search">
+                </td>
+                <td>
+                  <a href="#"><i class="material-icons">search</i>
+                  </a>
+                </td>
+              </tr>
+            </table>
+          </section>
+            <li><a href="index.php">Home</a></li>
+            <li><a href="overons.php">Over ons</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="locatie.php">Locatie</a></li>
+            <li><a href="bestellen.php">Bestellen</a></li>
+            <li><a href="openingstijden.php">openingstijden</a></li>
+            <li><a href="personeelgezocht.php">Personeel</a></li>
+    
+               <li><a>review</a>
+                <section class="menu-sub">
+                  <h3 class="menu-category">Kies hier een review</h3>
+                  <br>
+                  <ul> 
+                  <li><a href="formulierwebsite.php">website</a></li>
+                  <li><a href="reviewpagina.php">service</a></li> 
+                  <li><a href="review.php">mening</a></li>
+                  <li><a href="reviewproducten.php">producten</a></li>
+                </section>
+          <li><a>Informatievragen</a>
+            <section class="menu-sub">
+              <h3 class="menu-category">Kies hier de informatievraag uit</h3>
+              <br>
+              <ul>
+              <li><a href="vraag1.php">Wat voor drinken heeft Shabu allemaal?</a></li>
+              <li><a href="vraag2.php">Welke stukken sushi hebben een prijs van meer dan €5?</a></li>
+              <li><a href="vraag3.php">Welke poke bowls zijn goedkoper dan €10?</a></li>
+              <li><a href="vraag4.php">Welke specials heeft Shabu to go?</a></li>
+              <li><a href="vraag5.php">Welke producten met nigiri zijn er allemaal?</a></li>
+              <li><a href="vraag6.php">Welke side dishes zijn duurder dan €5?</a></li>
+              <li><a href="vraag7.php">Welke boxes hebben meer dan 20 stuks?</a></li>
+              </ul>
+              <h3 class="menu-category">Kies hier de informatievraag uit</h3>
+              <ul>
+              <li><a href="vraagDN1.php">Wat zijn de gegevens van de klanten?</a></li>
+              <li><a href="vraagDN2.php">Hoe oud is het gemiddelde leeftijd van de klanten?</a></li>
+              <li><a href="vraagDN3.php">Welke klanten hebben de achternaam Nguyen?</a></li>
+              <li><a href="vraagDN4.php">Hoeveel types van producten zijn er in totaal?</a></li>
+              <li><a href="vraagDN5.php">Wat zijn de gegevens van de vrouwen?</a></li>
+              <li><a href="vraagDN6.php">Hoeveel klanten hebben de postcode van 3200 of hoger?</a></li>
+              <li><a href="vraagDN7.php">Welke klanten wonen in Hoogvliet?</a></li>
+            </ul>
+            </section>
+      </li>
+      </section>
     </nav>
+    
+    <label for="nav-toggle" class="nav-toggle-label">
+      <span></span>
+    </label>
+    
     <label for="nav-toggle" class="nav-toggle-label">
       <span></span>
     </label>
@@ -140,5 +197,3 @@
   </footer>
 
 </body>
-
-</html>

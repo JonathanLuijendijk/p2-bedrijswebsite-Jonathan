@@ -138,6 +138,7 @@ td {
 
 }
 
+/* This buttons are used for bestellen1 t/m bestellen7 page*/
 button {
   display: flex;
   justify-self: flex-end;
@@ -159,6 +160,12 @@ button {
   width: 32.5vw;
 }
 
+/* This button is used for the navigationbar*/
+
+.button5 {
+  background: #000000;
+}
+
 /* the form starts here */
 
 .label {
@@ -174,7 +181,7 @@ button {
 }
 
 header {
-  background: var(--background);
+  background: black;
   text-align: center;
   position: relative;
   z-index: 999;
@@ -335,6 +342,7 @@ nav a{
   color: #fff;
 }
 
+
 nav li:hover {
   background: #444;
   }
@@ -369,10 +377,19 @@ nav li:hover .menu-sub {
  width: 25%;
 }
 
+
+
 /* This is a screen for phones like samsung */
 
 @media screen and (max-width: 600px){
+ 
+  .bannerXL{
+    width: 1000px;
+  }
 
+  .footerXL{
+    width: 1000px;
+  }
 
  .button3 {
    width: 100vw;
