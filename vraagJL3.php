@@ -28,7 +28,7 @@
     if($query->rowCount() > 0){
         echo "<table>";
         echo "<thead>";
-        echo "<th>KlantID</th><th>Naam</th><th>Geboortedatum</th><th>Geslacht</th>";
+        echo "<th>KlantID</th><th>Geboortedatum</th><th>Geslacht</th>";
         echo "</thead><tbody>";
     foreach($resultq as $data) {
         echo "<tr>";
