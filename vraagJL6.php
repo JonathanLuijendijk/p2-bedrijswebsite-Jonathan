@@ -20,21 +20,32 @@
     //db connection// 
     require_once("dbconshabu.php");
 
-    $query = $db->prepare("SELECT * FROM product WHERE prijs >= '20' ;");
+    $query = $db->prepare("SELECT * FROM product WHERE price >= '20' ;");
     $query->execute();
 
     $resultq = $query->fetchALL(PDO::FETCH_ASSOC);
 
+    
+    if($query->rowCount() > 0){
+        echo "<table>";
+        echo "<thead>";
+        echo "<th>ProductID</th><th>Naam</th><th>Prijs</th>";
+        echo "</thead><tbody>";
     foreach($resultq as $data) {
-      echo " ProductID : " .$data['productid'];
-      echo "<br>";  
-      echo " Naam : ". $data['naam'];
-      echo "<br>";
-      echo " Prijs : ". $data['prijs'];
-      echo "<br>";  
-      echo "<br>"; 
-      }
-
+        echo "<tr>"; 
+        echo "<td>"; 
+      echo " " .$data['idproduct'];
+      echo "</td>"; 
+      echo "<td>";  
+      echo " ". $data['naam'];
+      echo "</td>"; 
+      echo "<td>"; 
+      echo " ". $data['price'];
+      echo "</td>";
+    }      echo "</tbody></table>";
+} else {
+    echo "<h2>Helaas geen resultaten gevonden</h2>";
+}
 ?>
 
 

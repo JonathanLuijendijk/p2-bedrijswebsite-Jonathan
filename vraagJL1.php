@@ -25,13 +25,24 @@
 
     $resultq = $query->fetchALL(PDO::FETCH_ASSOC);
 
+    if($query->rowCount() > 0){
+        echo "<table>";
+        echo "<thead>";
+        echo "<th>orderID</th><th>Amount of products</th>";
+        echo "</thead><tbody>";
     foreach($resultq as $data) {
-    echo " orderID : " .$data['idorderline'];
-    echo "<br>";  
-    echo " Amount of products : ". $data['amount'];
-    echo "<br>";
-    echo "<br>";
-    }
+        echo "<tr>";
+        echo "<td>";
+    echo " " .$data['idorderline'];
+    echo "</td>";
+    echo "<td>";
+    echo "  ". $data['amount'];
+    echo "</td>";
+}     echo "</tbody></table>";
+} else {
+    echo "<h2>Helaas geen resultaten gevonden</h2>";
+}
+    
 
 ?>
 

@@ -20,22 +20,31 @@
 //db connection// 
     require_once("dbconshabu.php");
 
-    $query = $db->prepare("SELECT * FROM client WHERE age >= '50' ;");
+    $query = $db->prepare("SELECT * FROM customer WHERE dateofbirth LIKE '19%' ;");
     $query->execute();
 
     $resultq = $query->fetchALL(PDO::FETCH_ASSOC);
 
+    if($query->rowCount() > 0){
+        echo "<table>";
+        echo "<thead>";
+        echo "<th>KlantID</th><th>leeftijd</th><th>Geslacht</th>";
+        echo "</thead><tbody>";
     foreach($resultq as $data) {
-        echo " KlantID : " .$data['clientid'];
-        echo "<br>";  
-        echo " Naam : ". $data['name'];
-        echo "<br>";
-        echo " leeftijd : ". $data['age'];
-        echo "<br>";
-        echo " Geslacht : ". $data['gender']; 
-        echo "<br>";
-        echo "<br>";
-        }
+        echo "<tr>";
+        echo "<td>";
+        echo "  " .$data['idcustomer'];
+        echo "</td>";  
+        echo "<td>";
+        echo "  ". $data['dateofbirth'];
+        echo "</td>";
+        echo "<td>";
+        echo "  ". $data['gender']; 
+        echo "</td>";
+    }     echo "</tbody></table>";
+    } else {
+        echo "<h2>Helaas geen resultaten gevonden</h2>";
+    }
 
 ?>
 
