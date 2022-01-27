@@ -1,16 +1,139 @@
 <input type="checkbox" id="nav-toggle" class="nav-toggle">
-<nav>
-  <ul>
-    <li><a href="index.php">Home</a></li>
-    <li><a href="overons.php">Over ons</a></li>
-    <li><a href="contact.php">Contact</a></li>
-    <li><a href="locatie.php">Locatie</a></li>
-    <li><a href="bestellen.php">Bestellen</a></li>
-    <li><a href="openingstijden.php">openingstijden</a></li>
-    <li><a href="reviewpagina.php">Review service</a></li>
 
-  </ul>
+<nav>
+  <section>
+    <ul class="menu-main">
+        <li><a href="index.php">Home</a></li>
+        <li><a href="overons.php">Over ons</a></li>
+        <li><a href="contact.php">Contact</a></li>
+        <li><a href="locatie.php">Locatie</a></li>
+        <li><a href="bestellen.php">Bestellen</a></li>
+        <li><a href="openingstijden.php">openingstijden</a></li>
+        <li><a href="personeelgezocht.php">Personeel</a></li>
+
+           <li><a>Review</a>
+            <section class="menu-sub">
+              <h3 class="menu-category">Kies hier een review</h3>
+              <br>
+              <ul> 
+              <li><a href="formulierwebsite.php">website</a></li>
+              <li><a href="reviewpagina.php">service</a></li> 
+              <li><a href="review.php">mening</a></li>
+              <li><a href="reviewproducten.php">producten</a></li>
+            </section>
+      <li><a>Informatievragen</a>
+        <section class="menu-sub">
+          <h3 class="menu-category">Kies hier de informatievraag uit</h3>
+          <br>
+          <ul>
+          <li><a href="vraag1.php">Wat voor drinken heeft Shabu allemaal?</a></li>
+          <li><a href="vraag2.php">Welke stukken sushi hebben een prijs van meer dan €5?</a></li>
+          <li><a href="vraag3.php">Welke poke bowls zijn goedkoper dan €10?</a></li>
+          <li><a href="vraag4.php">Welke specials heeft Shabu to go?</a></li>
+          <li><a href="vraag5.php">Welke producten met nigiri zijn er allemaal?</a></li>
+          <li><a href="vraag6.php">Welke side dishes zijn duurder dan €5?</a></li>
+          <li><a href="vraag7.php">Welke boxes hebben meer dan 20 stuks?</a></li>
+          </ul>
+          <h3 class="menu-category">Kies hier de andere informatievraag uit</h3>
+          <ul>
+          <li><a href="vraagDN1.php">Wat zijn de gegevens van de klanten?</a></li>
+          <li><a href="vraagDN2.php">Hoeveel klanten van ons zijn in 2004 geboren?</a></li>
+          <li><a href="vraagDN3.php">Welke klanten hebben de achternaam Nguyen?</a></li>
+          <li><a href="vraagDN4.php">Welke klanten zijn tussen 1980 en 1989 geboren?</a></li>
+          <li><a href="vraagDN5.php">Wat zijn de gegevens van de vrouwen?</a></li>
+          <li><a href="vraagDN6.php">Hoeveel klanten hebben de postcode van 3200 of hoger?</a></li>
+          <li><a href="vraagDN7.php">Welke klanten wonen in Hoogvliet?</a></li>
+        </ul>
+        <h3 class="menu-category">Kies hier nog de andere informatievraag uit</h3>
+        <ul>
+          <li><a href="vraagJL1.php">Hoeveel producten kopen mensen per order?</a></li>
+          <li><a href="vraagJL2.php">Hoeveel ouderen kopen bij ons?</a></li>
+          <li><a href="vraagJL3.php">Hoeveel jongeren kopen bij ons?</a></li>
+          <li><a href="vraagJL4.php">Hoeveel mensen wonen er in Rotterdam?</a></li>
+          <li><a href="vraagJL5.php">Hoeveel mensen hebben een U in hun naam?</a></li>
+          <li><a href="vraagJL6.php">Wat zijn onze duurste producten?</a></li>
+          <li><a href="vraagJL7.php">Wat zijn onze goedkoopste producten</a></li>
+        </ul>
+        <h3 class="menu-category">Kies hier nog de andere informatievraag uit</h3>
+        <ul>
+          <li><a href="1vraagRBN.php">Wanneer wordt het meest besteld bij Shabu to go?</a></li>
+          <li><a href="2vraagRBN.php">Bij welke vesteging wordt het meest besteld?</a></li>
+          <li><a href="3vraagRBN.php">Bij welke vesteging wordt het minst besteld?</a></li>
+          <li><a href="4vraagRBN.php">Wanneer is er het meest besteld bij SHabu to go?</a></li>
+          <li><a href="5vraagRBN.php">Hoeveel klanten heeft Shabu to go dagelijks? </a></li>
+          <li><a href="6vraagRBN.php">Hoeveel klanten heeft Shabu to go jaarlijks? </a></li>
+          <li><a href="7vraagRBN.php">Hoeveel producten worden er gemiddeld gekocht/besteld per dag? </a></li>
+        </ul>
+        </section>
+  </li>
+
+  <li><a>search</a>
+    <section class="menu-sub">
+      <h3 class="menu-category">1e zoekbalk is over producten<br> 2e zoekbalk over klanten<br> 3e zoekbalk over ???<br>4e zoekbalk over ???</h3>
+      <ul class="menu-main">
+        <section class="boxContainer">
+          <form method="post" action="gezochtproduct.php">
+          <table class="elementsContainer">
+            <tr>
+              <td>
+                <input type="text" name="search" placeholder="type een productnaam">
+              </td>
+              <td>
+                <input type="submit" name="submit" class="material-icons button5" value="search">
+                </input>
+              </td>
+            </tr>
+          </table>
+        </form>
+        </section>
+        <section class="boxContainer">
+          <form method="post" action="gezochtklant.php">
+          <table class="elementsContainer">
+            <tr>
+              <td>
+                <input type="text" name="search" placeholder="type hier de klantennaam">
+              </td>
+              <td>
+                <input type="submit" name="submit" class="material-icons button5" value="search">
+                </input>
+              </td>
+            </tr>
+          </table>
+        </form>
+        </section>
+        <section class="boxContainer">
+          <form method="post" action="gezochtproduct.php">
+          <table class="elementsContainer">
+            <tr>
+              <td>
+                <input type="text" name="search" placeholder="type hier ???">
+              </td>
+              <td>
+                <input type="submit" name="submit" class="material-icons button5" value="search">
+                </input>
+              </td>
+            </tr>
+          </table>
+        </form>
+        </section>
+              <section class="boxContainer">
+        <form method="post" action="gezochtproduct.php">
+        <table class="elementsContainer">
+          <tr>
+            <td>
+              <input type="text" name="search" placeholder="type hier ???">
+            </td>
+            <td>
+              <input type="submit" name="submit" class="material-icons button5" value="search">
+              </input>
+            </td>
+          </tr>
+        </table>
+      </form>
+      </section>
+      </section>
 </nav>
+
 <label for="nav-toggle" class="nav-toggle-label">
   <span></span>
 </label>
